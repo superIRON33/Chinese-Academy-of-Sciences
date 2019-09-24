@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  #数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/iep_database?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=true
+    username: root
+    password: WdTK336699@.@go
+
+  jpa:
+    hibernate:
+      #在程序启动时更新实体类对应的表
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    #在日志中打印出执行的SQL语句信息
+    show-sql: true
