@@ -11,7 +11,6 @@ import javax.persistence.*;
 public class UserInfo {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
 
     @Column(name = "name")
@@ -32,23 +31,32 @@ public class UserInfo {
     @Column(name = "workspace")
     private String workspace;
 
+    @Column(name = "workspace_is")
+    private Integer workspaceIs;
+
     @Column(name = "address")
     private String address;
+
+    @Column(name = "address_is")
+    private String addressIs;
 
     @Column(name = "telephone")
     private String telephone;
 
+    @Column(name = "telephone_is")
+    private String telephoneIs;
+
     @Column(name = "email_add")
     private String emailAdd;
+
+    @Column(name = "email_is")
+    private String emailIs;
 
     @Column(name = "wechat_png")
     private String wechatPNG;
 
     @Column(name = "slogan")
     private String slogan;
-    
-    @Column(name = "isPublic")
-    private String is_public;
 
     public UserInfo(String image) {
         
@@ -59,6 +67,5 @@ public class UserInfo {
         this.degree = "";
         this.workspace = "";
         this.address = "";
-        this.is_public = "";
     }
 }

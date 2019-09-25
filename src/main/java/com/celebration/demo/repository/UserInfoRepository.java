@@ -7,6 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 /**
  * @author: wjy
  * @date: 2019/9/25
@@ -18,4 +20,6 @@ public interface UserInfoRepository extends JpaRepository<UserInfo, String> {
     @Modifying
     @Query("UPDATE UserInfo userInfo SET userInfo.image = :image WHERE userInfo.id = :id")
     void updateImage(@Param("id") String id, @Param("image") String image);
+
+    Optional<UserInfo> findUserInfoById(String id);
 }
