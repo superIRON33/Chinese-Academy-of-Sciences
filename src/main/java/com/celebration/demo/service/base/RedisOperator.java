@@ -1,0 +1,57 @@
+package com.celebration.demo.service.base;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Service;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * @author: wjy
+ * @date: 2019/7/30
+ * @description: redis的相关操作类
+ */
+@Service
+public class RedisOperator {
+    
+    @Autowired
+    private StringRedisTemplate redisTemplate;
+    
+    /**
+     * 功能描述: 添加key-value键值对
+     *
+     * @param: [key, value, timeout]
+     * @return: void
+     * @author: wjy
+     * @date: 2019/5/30 20:55
+     */
+    public void set(String key, String value, long timeout) {
+        
+        redisTemplate.opsForValue().set(key, value, timeout, TimeUnit.SECONDS);
+    }
+    
+    /**
+     * 功能描述: 查询key是否存在
+     *
+     * @param: [key]
+     * @return: java.lang.Boolean
+     * @author: wjy
+     * @date: 2019/5/30 20:54
+     */
+    public Boolean hasKey(String key) {
+        
+        return redisTemplate.hasKey(key);
+    }
+    
+    /**
+     * 功能描述: 获取key对应的value
+     *
+     * @param: [key]
+     * @return: java.lang.String
+     * @author: wjy
+     * @date: 2019/5/30 20:53
+     */
+    public String getValue(String key) {
+        
+        return redisTemplate.opsForValue().get(key);
+    }
+}

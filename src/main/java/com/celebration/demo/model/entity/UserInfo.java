@@ -2,7 +2,6 @@ package com.celebration.demo.model.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Data
@@ -47,6 +46,19 @@ public class UserInfo {
 
     @Column(name = "slogan")
     private String slogan;
+    
+    @Column(name = "isPublic")
+    private String is_public;
 
-
+    public UserInfo(String image) {
+        
+        this.name = "";
+        this.image = image;
+        this.learnTime = 1949;
+        this.institute = "";
+        this.degree = "";
+        this.workspace = "";
+        this.address = "";
+        this.is_public = "";
+    }
 }
