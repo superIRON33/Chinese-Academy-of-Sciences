@@ -19,9 +19,9 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * @author: wjy
- * @date: 2019/9/25
- * @description: 微信登录服务层实现类
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description: 微信登录服务层实现类
  */
 @Slf4j
 @Service
@@ -110,7 +110,8 @@ public class WxServiceImpl implements WxService {
             resultDTO.setData(userId);
             return resultDTO;
         }
+        userInfoRepository.deleteById(userId);
         log.error("errcode:{}，errmsg: {}", jsonObject.getString("errcode"), jsonObject.getString("errmsg"));
-        return new ResultDTO(ResultEnum.FAIL);
+        return new ResultDTO(ResultEnum.WECHAT_FAIL);
     }
 }

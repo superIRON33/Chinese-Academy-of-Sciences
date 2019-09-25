@@ -3,9 +3,9 @@ package com.celebration.demo.service;
 import com.celebration.demo.model.dto.ResultDTO;
 
 /**
- * @author: wjy
- * @date: 2019/9/25
- * @description: 微信登录服务层接口
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description: 微信登录服务层接口
  */
 public interface WxService {
 

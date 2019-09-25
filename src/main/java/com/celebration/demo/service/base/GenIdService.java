@@ -9,9 +9,9 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: wjy
- * @date: 2019/8/1
- * @description: 雪花算法生产ID
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description: 雪花算法生产ID
  */
 @Slf4j
 @EnableScheduling
@@ -121,7 +121,7 @@ public class GenIdService {
      * @param: []
      * @return: long
      * @author: wjy
-     * @date: 2019/7/30 0:19
+     * @date: 2019/9/25 12:31
      */
     private synchronized long nextId() {
         

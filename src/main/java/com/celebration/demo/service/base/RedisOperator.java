@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: wjy
- * @date: 2019/7/30
- * @description: redis的相关操作类
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description: redis的相关操作类
  */
 @Service
 public class RedisOperator {
@@ -22,7 +22,7 @@ public class RedisOperator {
      * @param: [key, value, timeout]
      * @return: void
      * @author: wjy
-     * @date: 2019/5/30 20:55
+     * @date: 2019/9/25 12:31
      */
     public void set(String key, String value, long timeout) {
         
@@ -35,7 +35,7 @@ public class RedisOperator {
      * @param: [key]
      * @return: java.lang.Boolean
      * @author: wjy
-     * @date: 2019/5/30 20:54
+     * @date: 2019/9/25 12:31
      */
     public Boolean hasKey(String key) {
         
@@ -48,7 +48,7 @@ public class RedisOperator {
      * @param: [key]
      * @return: java.lang.String
      * @author: wjy
-     * @date: 2019/5/30 20:53
+     * @date: 2019/9/25 12:31
      */
     public String getValue(String key) {
         

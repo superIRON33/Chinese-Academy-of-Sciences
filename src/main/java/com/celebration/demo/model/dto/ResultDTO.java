@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author: wjy
- * @date: 2019/7/30
- * @description: 封装返回给前端的数据
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description: 封装返回给前端的数据
  */
 @Data
 @NoArgsConstructor

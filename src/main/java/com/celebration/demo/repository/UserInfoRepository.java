@@ -6,13 +6,12 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
 import java.util.Optional;
 
 /**
- * @author: wjy
- * @date: 2019/9/25
- * @description:
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description:
  */
 @Repository
 public interface UserInfoRepository extends JpaRepository<UserInfo, String> {

@@ -18,9 +18,9 @@ import java.net.URISyntaxException;
 import java.util.Map;
 
 /**
- * @author: wjy
- * @date: 2019/8/1
- * @description: 服务端向微信小程序发起https请求的工具类
+ * @Auther: wjy
+ * @Date: 2019/9/25 12:31
+ * @Description: 服务端向微信小程序发起https请求的工具类
  * CloseableHttpClient是HttpClient接口的实现类
  */
 @Slf4j
@@ -37,7 +37,7 @@ public class HttpClientUtil {
      * @param: [url]
      * @return: java.lang.String
      * @author: wjy
-     * @date: 2019/5/31 22:06
+     * @date: 2019/9/25 12:31
      */
     public static String doGet(String url) {
         return doGet(url, null);
@@ -49,7 +49,7 @@ public class HttpClientUtil {
      * @param: [url, param]
      * @return: java.lang.String
      * @author: wjy
-     * @date: 2019/5/31 22:05
+     * @date: 2019/9/25 12:31
      */
     public static String doGet(String url, Map<String, String> param) {
         
@@ -101,7 +101,7 @@ public class HttpClientUtil {
      * @param: [url, jsonData]
      * @return: java.lang.String
      * @author: wjy
-     * @date: 2019/6/25 17:39
+     * @date: 2019/9/25 12:31
      */
     public static String doPost1(String url, String jsonData) {
         
@@ -145,7 +145,7 @@ public class HttpClientUtil {
      * @param: [url, param]
      * @return: java.io.InputStream
      * @author: wjy
-     * @date: 2019/6/25 17:33
+     * @date: 2019/9/25 12:31
      */
     public static InputStream doPost2(String url, String param) {
         
