@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class BlessDTO {
 
+    private String id;
     private String name;
     private String userImage;
     private String institute;
