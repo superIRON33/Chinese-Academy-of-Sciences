@@ -15,5 +15,4 @@ public class BlessDTO {
     private String institute;
     private String image;
     private String content;
-
 }

@@ -13,5 +13,5 @@ public interface WxService {
     
     ResultDTO isWxLogin(String code, String userId, String image);
     
-    ResultDTO wxLogin(String userId, String code);
+    String wxLogin(String code);
 }

@@ -21,7 +21,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
 import java.util.*;
 
 @Service
@@ -47,7 +46,7 @@ public class BlessServiceImpl implements BlessService {
 
         if (userInfoRepository.findUserInfoById(userId).isPresent()) {
             Bless bless = new Bless(userId, content);
-            if (ImageUploadUtil.upload(image, path, image.getOriginalFilename())){
+            if (image != null && ImageUploadUtil.upload(image, path, image.getOriginalFilename())){
                 bless.setImage(path + ImageNameUtil.getImageName(image.getOriginalFilename()));
                 blessRepository.saveAndFlush(bless);
 //                System.out.println(bless.getImage());

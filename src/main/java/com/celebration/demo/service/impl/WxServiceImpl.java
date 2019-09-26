@@ -64,32 +64,36 @@ public class WxServiceImpl implements WxService {
 	@Override
 	public ResultDTO isWxLogin(String code, String userId, String image) {
         
-        Optional<UserInfo> userInfo = null;
-	    
-	    if (!StringUtil.isNullOrEmpty(userId)) {
-            userInfo = userInfoRepository.findById(userId);
+        // 第一次登录或者被清空缓存
+	    if (StringUtil.isNullOrEmpty(userId)) {
+	        userId = wxLogin(code);
+	        if (StringUtil.isNullOrEmpty(userId)) {
+	            return new ResultDTO(ResultEnum.WECHAT_FAIL);
+            }
         }
-	    // 用户第一次登录
+        // 登录态失效
+        if (!redisOperator.hasKey(userId)) {
+            redisOperator.set(userId, "", VariableEnum.LOGIN_TIMEOUT.getValue());
+        }
+        Optional<UserInfo> userInfo = userInfoRepository.findById(userId);
+        // 用户第一次登录
 	    if (userInfo == null || !userInfo.isPresent()) {
-            userId = userInfoRepository.save(new UserInfo(image)).getId();
+            userInfoRepository.save(new UserInfo(userId, image));
         }
-        // 更新旧用户的image
+        // 更新旧用户的信息
         else {
             // 更新头像
             if (!userInfo.get().getImage().equals(image)) {
                 userInfoRepository.updateImage(userId, image);
             }
-            // 登录态尚未失效
-            if (redisOperator.hasKey(userId)) {
-                return new ResultDTO(ResultEnum.SUCCESS);
-            }
         }
-        // 重新维护登录态
-        return wxLogin(userId, code);
+        ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+        resultDTO.setData(userId);
+        return resultDTO;
 	}
     
     @Override
-    public ResultDTO wxLogin(String userId, String code) {
+    public String wxLogin(String code) {
 	    
         // GET请求传递的参数的集合
         Map<String, String> param = new HashMap<>();
@@ -101,17 +105,11 @@ public class WxServiceImpl implements WxService {
         String wxResult = HttpClientUtil.doGet(WechatEnum.WX_LOGIN.getValue(), param);
         // 解析Json数据
         JSONObject jsonObject = JSONObject.parseObject(wxResult);
-        log.info(jsonObject.getString("openid"));
-        
-        if (jsonObject.getString("openid") != null) {
-            // 存入redis数据库
-            redisOperator.set(userId, jsonObject.getString("openid"), VariableEnum.LOGIN_TIMEOUT.getValue());
-            ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
-            resultDTO.setData(userId);
-            return resultDTO;
+        String openid = jsonObject.getString("openid");
+        log.info("openid: {}", openid);
+        if (StringUtil.isNullOrEmpty(openid)) {
+            log.error("errcode:{}，errmsg: {}", jsonObject.getString("errcode"), jsonObject.getString("errmsg"));
         }
-        userInfoRepository.deleteById(userId);
-        log.error("errcode:{}，errmsg: {}", jsonObject.getString("errcode"), jsonObject.getString("errmsg"));
-        return new ResultDTO(ResultEnum.WECHAT_FAIL);
+        return openid;
     }
 }

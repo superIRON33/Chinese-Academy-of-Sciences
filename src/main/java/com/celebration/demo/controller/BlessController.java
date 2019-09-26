@@ -18,7 +18,7 @@ public class BlessController {
     @PostMapping(value = "/bless")
     public ResultDTO saveBless(@RequestParam String userId,
                                @RequestParam String content,
-                               @RequestParam("image")MultipartFile image) {
+                               @RequestParam(value = "image", required = false) MultipartFile image) {
 
         return blessService.saveBless(userId, content, image);
     }

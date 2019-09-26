@@ -32,5 +32,5 @@ spring:
       max-request-size: 10MB
 #存放图片位置
 web:
-  upload-path: http://47.111.74.132/user/projct/images/
-  wechatPNG: http://47.111.74.132/user/project/wechatPNG/
+  upload-path: http://47.111.74.132/images/
+  wechatPNG: http://47.111.74.132/codes/

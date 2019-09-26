@@ -3,7 +3,6 @@ package com.celebration.demo.model.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @Data
@@ -13,8 +12,6 @@ import javax.persistence.*;
 @Table(name = "user_info")
 public class UserInfo {
     
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "snowflake_id")
-    @GenericGenerator(name = "snowflake_id", strategy = "com.celebration.demo.common.utils.JpaIdGenUtil")
     @Id
     @Column(name = "id")
     private String id;
@@ -67,8 +64,9 @@ public class UserInfo {
     @Column(name = "slogan")
     private String slogan;
 
-    public UserInfo(String image) {
+    public UserInfo(String userId, String image) {
         
+        this.id = userId;
         this.name = "";
         this.image = image;
         this.year = 1978;
