@@ -5,6 +5,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.Optional;
+
 public interface BlessRepository extends JpaRepository<Bless, String> {
 
     Page<Bless> findAllBy(Pageable pageable);
@@ -13,4 +15,7 @@ public interface BlessRepository extends JpaRepository<Bless, String> {
     <S extends Bless> S saveAndFlush(S s);
 
     Integer countAllBy();
+
+    @Override
+    Optional<Bless> findById(String s);
 }

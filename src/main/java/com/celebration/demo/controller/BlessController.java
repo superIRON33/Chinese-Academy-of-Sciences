@@ -29,4 +29,10 @@ public class BlessController {
 
         return blessService.getBless(pageNumber, pageSize);
     }
+
+    @PostMapping(value = "/bless/commend")
+    public ResultDTO commend(@RequestParam String userId,
+                             @RequestParam String blessId) {
+        return blessService.commend(userId, blessId);
+    }
 }

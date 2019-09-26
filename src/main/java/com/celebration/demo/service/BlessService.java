@@ -8,4 +8,6 @@ public interface BlessService {
     ResultDTO saveBless(String userId, String content, MultipartFile image);
 
     ResultDTO getBless(Integer pageNumber, Integer pageSize);
+
+    ResultDTO commend(String userId, String blessId);
 }

@@ -40,7 +40,12 @@ public enum ResultEnum {
     /**
      * 数据不存在
      */
-    DATA_NOT_EXIST(509, "数据不存在");
+    DATA_NOT_EXIST(509, "数据不存在"),
+
+    /**
+     * 已经点赞过
+     */
+    COMMEND_EXIST(510, "您已经点赞过");
 
     private Integer code;
     private String message;

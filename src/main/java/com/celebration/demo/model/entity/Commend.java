@@ -11,8 +11,8 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "bless")
-public class Bless {
+@Table(name = "commend")
+public class Commend {
 
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "snowflake_id")
     @GenericGenerator(name = "snowflake_id", strategy = "com.celebration.demo.common.utils.JpaIdGenUtil")
@@ -23,20 +23,11 @@ public class Bless {
     @Column(name = "user_id")
     private String userId;
 
-    @Column(name = "content")
-    private String content;
+    @Column(name = "bless_id")
+    private String blessId;
 
-    @Column(name = "image")
-    private String image;
-
-    @Column(name = "likes")
-    private Integer likes;
-
-    @Column(name = "create_time")
-    private String createTime;
-
-    public Bless(String userId, String content) {
+    public Commend(String userId, String blessId) {
         this.userId = userId;
-        this.content = content;
+        this.blessId = blessId;
     }
 }

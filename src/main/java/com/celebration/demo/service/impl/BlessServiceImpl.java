@@ -7,7 +7,10 @@ import com.celebration.demo.common.utils.ImageUploadUtil;
 import com.celebration.demo.model.dto.BlessDTO;
 import com.celebration.demo.model.dto.ResultDTO;
 import com.celebration.demo.model.entity.Bless;
+import com.celebration.demo.model.entity.Commend;
+import com.celebration.demo.model.entity.UserInfo;
 import com.celebration.demo.repository.BlessRepository;
+import com.celebration.demo.repository.CommendRepository;
 import com.celebration.demo.repository.UserInfoRepository;
 import com.celebration.demo.service.BlessService;
 import com.celebration.demo.service.base.GenericService;
@@ -19,10 +22,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service
 public class BlessServiceImpl implements BlessService {
@@ -35,6 +35,9 @@ public class BlessServiceImpl implements BlessService {
 
     @Autowired
     private GenericService genericService;
+
+    @Autowired
+    private CommendRepository commendRepository;
 
     @Value("${web.upload-path}")
     private String path;
@@ -84,5 +87,24 @@ public class BlessServiceImpl implements BlessService {
         } else {
             return new ResultDTO(ResultEnum.DATA_NOT_EXIST);
         }
+    }
+
+    @Override
+    public ResultDTO commend(String userId, String blessId) {
+        Optional<UserInfo> userInfo = userInfoRepository.findUserInfoById(userId);
+        Optional<Bless> bless = blessRepository.findById(blessId);
+        if (userInfo.isPresent() && bless.isPresent()) {
+            Optional<Commend> commend = commendRepository.findCommendByUserIdAndBlessId(userId, blessId);
+            if (commend.isPresent()) {
+                return new ResultDTO(ResultEnum.COMMEND_EXIST);
+            } else {
+                Commend commend1 = new Commend(userId, blessId);
+                commendRepository.saveAndFlush(commend1);
+                bless.get().setLikes(bless.get().getLikes() + 1);
+                blessRepository.saveAndFlush(bless.get());
+                return new ResultDTO(ResultEnum.SUCCESS);
+            }
+        }
+        return new ResultDTO(ResultEnum.ID_INVALID);
     }
 }
