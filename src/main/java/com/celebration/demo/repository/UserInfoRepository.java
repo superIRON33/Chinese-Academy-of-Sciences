@@ -21,4 +21,5 @@ public interface UserInfoRepository extends JpaRepository<UserInfo, String> {
     void updateImage(@Param("id") String id, @Param("image") String image);
 
     Optional<UserInfo> findUserInfoById(String id);
+
 }

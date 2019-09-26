@@ -33,3 +33,4 @@ spring:
 #存放图片位置
 web:
   upload-path: /user/projct/images/
+  wechatPNG: /user/project/wechatPNG/

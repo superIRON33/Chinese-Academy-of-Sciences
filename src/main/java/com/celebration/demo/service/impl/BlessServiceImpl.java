@@ -42,13 +42,12 @@ public class BlessServiceImpl implements BlessService {
     @Override
     public ResultDTO saveBless(String userId, String content, MultipartFile image) {
 
-        System.out.println(path);
         if (userInfoRepository.findUserInfoById(userId).isPresent()) {
             Bless bless = new Bless(userId, content);
             if (ImageUploadUtil.upload(image, path, image.getOriginalFilename())){
                 bless.setImage(path + ImageNameUtil.getImageName(image.getOriginalFilename()));
                 blessRepository.saveAndFlush(bless);
-                System.out.println(bless.getImage());
+//                System.out.println(bless.getImage());
                 Map<String, Object> map = new HashMap<>();
                 map.put("imageURL", path + bless.getImage());
                 map.put("count", blessRepository.countAllBy());

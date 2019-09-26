@@ -1,12 +1,19 @@
 package com.celebration.demo.service.impl;
 
 import com.celebration.demo.common.enums.ResultEnum;
+import com.celebration.demo.common.utils.ImageNameUtil;
+import com.celebration.demo.common.utils.ImageUploadUtil;
 import com.celebration.demo.model.dto.ResultDTO;
 import com.celebration.demo.model.entity.UserInfo;
 import com.celebration.demo.repository.UserInfoRepository;
 import com.celebration.demo.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 @Service
@@ -14,6 +21,9 @@ public class UserServiceImpl implements UserInfoService {
 
     @Autowired
     private UserInfoRepository userInfoRepository;
+
+    @Value("${web.wechatPNG}")
+    private String path;
 
     @Override
     public ResultDTO getUserInfo(String id) {
@@ -35,6 +45,23 @@ public class UserServiceImpl implements UserInfoService {
             userInfoRepository.save(new UserInfo(id, name, userInfo.get().getImage(), year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, userInfo.get().getWechatPNG(), slogan));
             ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
             return resultDTO;
+        }
+        return new ResultDTO(ResultEnum.ID_INVALID);
+    }
+
+    @Override
+    public ResultDTO uploadWechatPNG(String id, MultipartFile image) {
+
+        if (userInfoRepository.findUserInfoById(id).isPresent()) {
+            Optional<UserInfo> userInfo = userInfoRepository.findUserInfoById(id);
+            if (ImageUploadUtil.upload(image, path, image.getOriginalFilename())){
+                userInfo.get().setWechatPNG(path + ImageNameUtil.getImageName(image.getOriginalFilename()));
+                userInfoRepository.save(userInfo.get());
+                ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+                resultDTO.setData(userInfo.get().getWechatPNG());
+                return resultDTO;
+            }
+            return new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
         }
         return new ResultDTO(ResultEnum.ID_INVALID);
     }

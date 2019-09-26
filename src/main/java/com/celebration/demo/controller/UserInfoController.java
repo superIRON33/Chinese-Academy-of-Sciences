@@ -6,6 +6,7 @@ import com.celebration.demo.service.WxService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 @Slf4j
 @RestController
@@ -52,5 +53,11 @@ public class UserInfoController {
     
         log.info("更新用户信息: {}(id)", id);
         return userInfoService.updateUserInfo(id, name, year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, slogan);
+    }
+
+    @PostMapping(value = "/userInfo/code")
+    public ResultDTO uploadWechatPNG(@RequestParam(value = "id") String id,
+                                     @RequestParam(value = "image")MultipartFile image) {
+        return userInfoService.uploadWechatPNG(id, image);
     }
 }
