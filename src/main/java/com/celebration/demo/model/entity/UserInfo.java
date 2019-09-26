@@ -31,6 +31,9 @@ public class UserInfo {
     @Column(name = "institute")
     private String institute;
 
+    @Column(name = "province")
+    private String province;
+    
     @Column(name = "degree")
     private String degree;
 
@@ -55,8 +58,8 @@ public class UserInfo {
     @Column(name = "email_add")
     private String emailAdd;
 
-    @Column(name = "email_is")
-    private Integer emailIs;
+    @Column(name = "email_add_is")
+    private Integer emailAddIs;
 
     @Column(name = "wechat_png")
     private String wechatPNG;
@@ -70,12 +73,17 @@ public class UserInfo {
         this.image = image;
         this.year = 1978;
         this.institute = "";
+        this.province = "";
         this.degree = "";
         this.workspace = "";
         this.workspaceIs = 0;
         this.address = "";
         this.addressIs = 0;
+        this.telephone = "";
         this.telephoneIs = 0;
-        this.emailIs = 0;
+        this.emailAdd = "";
+        this.emailAddIs = 0;
+        this.wechatPNG = "";
+        this.slogan = "";
     }
 }

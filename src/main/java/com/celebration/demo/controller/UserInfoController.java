@@ -38,6 +38,7 @@ public class UserInfoController {
                                     @RequestParam(value = "name") String name,
                                     @RequestParam(value = "year") Integer year,
                                     @RequestParam(value = "institute") String institute,
+                                    @RequestParam(value = "province") String province,
                                     @RequestParam(value = "degree") String degree,
                                     @RequestParam(value = "workspace") String workspace,
                                     @RequestParam(value = "workspaceIs") Integer workspaceIs,
@@ -46,11 +47,10 @@ public class UserInfoController {
                                     @RequestParam(value = "telephone") String telephone,
                                     @RequestParam(value = "telephoneIs") Integer telephoneIs,
                                     @RequestParam(value = "emailAdd") String emailAdd,
-                                    @RequestParam(value = "emailIs") Integer emailIs,
-                                    @RequestParam(value = "wechatPNG") String wechatPNG,
+                                    @RequestParam(value = "emailAddIs") Integer emailAddIs,
                                     @RequestParam(value = "slogan") String slogan) {
     
         log.info("更新用户信息: {}(id)", id);
-        return userInfoService.updateUserInfo(id, name, year, institute, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailIs, wechatPNG, slogan);
+        return userInfoService.updateUserInfo(id, name, year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, slogan);
     }
 }
