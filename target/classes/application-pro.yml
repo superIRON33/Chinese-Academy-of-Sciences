@@ -33,4 +33,4 @@ spring:
 #存放图片位置
 web:
   upload-path: http://47.111.74.132/images/
-  wechatPNG: http://47.111.74.132/code/
+  wechatPNG: http://47.111.74.132/codes/
