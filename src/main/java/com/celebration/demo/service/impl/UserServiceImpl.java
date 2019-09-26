@@ -28,11 +28,11 @@ public class UserServiceImpl implements UserInfoService {
     }
     
     @Override
-    public ResultDTO updateUserInfo(String id, String name, Integer year, String institute, String degree, String workspace, Integer workspaceIs, String address, Integer addressIs, String telephone, Integer telephoneIs, String emailAdd, Integer emailIs, String wechatPNG, String slogan) {
+    public ResultDTO updateUserInfo(String id, String name, Integer year, String institute, String province, String degree, String workspace, Integer workspaceIs, String address, Integer addressIs, String telephone, Integer telephoneIs, String emailAdd, Integer emailAddIs, String slogan) {
     
         Optional<UserInfo> userInfo = userInfoRepository.findUserInfoById(id);
         if (userInfo.isPresent()) {
-            userInfoRepository.save(new UserInfo(id, name, userInfo.get().getImage(), year, institute, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailIs, wechatPNG, slogan));
+            userInfoRepository.save(new UserInfo(id, name, userInfo.get().getImage(), year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, userInfo.get().getWechatPNG(), slogan));
             ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
             return resultDTO;
         }
