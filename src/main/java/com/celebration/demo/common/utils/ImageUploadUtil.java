@@ -5,12 +5,12 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.IOException;
 
-public class FileUploadUtil {
+public class ImageUploadUtil {
 
-    public static boolean upload(MultipartFile file, String path, String fileName) {
+    public static boolean upload(MultipartFile file, String path, String imageName) {
 
         //生成新文件名
-        String realPath = path + "/" +FileNameUtil.getFileName(fileName);
+        String realPath = path + "/" + ImageNameUtil.getImageName(imageName);
 
         File dest = new File(realPath);
 

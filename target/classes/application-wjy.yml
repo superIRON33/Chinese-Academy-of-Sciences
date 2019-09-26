@@ -23,3 +23,13 @@ spring:
   jackson:
     serialization:
       indent-output: true
+  #文件传输大小和上限设置
+  servlet:
+    multipart:
+      #单个文件最大为10MB
+      max-file-size: 10MB
+      #总的传输文件最大为10MB
+      max-request-size: 10MB
+#存放图片位置
+web:
+  upload-path: C:/images/

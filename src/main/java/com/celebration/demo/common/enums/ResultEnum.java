@@ -30,7 +30,17 @@ public enum ResultEnum {
     /**
      * id不存在
      */
-    ID_INVALID(507, "id不存在");
+    ID_INVALID(507, "id不存在"),
+
+    /**
+     * 图片上传失败
+     */
+    IMAGE_UPLOAD_FAILURE(508, "图片上传失败"),
+
+    /**
+     * 数据不存在
+     */
+    DATA_NOT_EXIST(509, "数据不存在");
 
     private Integer code;
     private String message;

@@ -1,4 +1,4 @@
-package com.upuper.demo.common.utils;
+package com.celebration.demo.common.utils;
 
 import java.util.UUID;
 
