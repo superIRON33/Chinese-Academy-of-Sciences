@@ -49,10 +49,10 @@ public class BlessServiceImpl implements BlessService {
             if (image != null && ImageUploadUtil.upload(image, path, image.getOriginalFilename())){
                 bless.setImage(path + ImageNameUtil.getImageName(image.getOriginalFilename()));
                 blessRepository.saveAndFlush(bless);
-//                System.out.println(bless.getImage());
                 Map<String, Object> map = new HashMap<>();
                 map.put("imageURL", path + bless.getImage());
                 map.put("count", blessRepository.countAllBy());
+                userInfoRepository.updateWechatPNG(userId, path + bless.getImage());
                 ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
                 resultDTO.setData(map);
                 return resultDTO;
