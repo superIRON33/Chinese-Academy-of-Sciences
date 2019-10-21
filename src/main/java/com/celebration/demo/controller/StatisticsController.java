@@ -27,4 +27,13 @@ public class StatisticsController {
         
         return statisticsService.getStatistics(keyword);
     }
+    
+    @GetMapping(value = "/statistics/map")
+    public ResultDTO getMapStatistics(@RequestParam("keyword") String keyword,
+                                      @RequestParam("neLongitude") Float neLongitude,
+                                      @RequestParam("neLatitude") Float neLatitude,
+                                      @RequestParam("swLongitude") Float swLongitude,
+                                      @RequestParam("swLatitude") Float swLatitude) {
+        return statisticsService.getMapStatistics(keyword, neLongitude, neLatitude, swLongitude, swLatitude);
+    }
 }

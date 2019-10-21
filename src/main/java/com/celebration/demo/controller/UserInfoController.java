@@ -49,15 +49,16 @@ public class UserInfoController {
                                     @RequestParam(value = "telephoneIs") Integer telephoneIs,
                                     @RequestParam(value = "emailAdd") String emailAdd,
                                     @RequestParam(value = "emailAddIs") Integer emailAddIs,
-                                    @RequestParam(value = "slogan") String slogan) {
+                                    @RequestParam(value = "slogan") String slogan,
+                                    @RequestParam(value = "country") String country) {
     
         log.info("更新用户信息: {}(id)", id);
-        return userInfoService.updateUserInfo(id, name, year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, slogan);
+        return userInfoService.updateUserInfo(id, name, year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, slogan, country);
     }
 
     @PostMapping(value = "/userInfo/code")
     public ResultDTO uploadWechatPNG(@RequestParam(value = "id") String id,
-                                     @RequestParam(value = "image")MultipartFile image) {
+                                     @RequestParam(value = "image") String image) {
         return userInfoService.uploadWechatPNG(id, image);
     }
 }

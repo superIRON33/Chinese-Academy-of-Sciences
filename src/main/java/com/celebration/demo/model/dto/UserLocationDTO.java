@@ -4,18 +4,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author: wjy
+ * @date: 2019/
+ * @description:
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class BlessDTO {
-
+public class UserLocationDTO {
+    
     private String id;
-    private String name;
-    private String userImage;
-    private String institute;
     private String image;
-    private String content;
-    private Integer likes;
-    private String cert;
-    private Integer isLikes;
+    private Float longitude;
+    private Float latitude;
 }

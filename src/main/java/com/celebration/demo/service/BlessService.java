@@ -1,13 +1,12 @@
 package com.celebration.demo.service;
 
 import com.celebration.demo.model.dto.ResultDTO;
-import org.springframework.web.multipart.MultipartFile;
 
 public interface BlessService {
 
-    ResultDTO saveBless(String userId, String content, MultipartFile image);
+    ResultDTO saveBless(String userId, String content, String image);
 
-    ResultDTO getBless(Integer pageNumber, Integer pageSize);
+    ResultDTO getBless(String userId, Integer pageNumber, Integer pageSize);
 
     ResultDTO commend(String userId, String blessId);
 }

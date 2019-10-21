@@ -10,4 +10,6 @@ import com.celebration.demo.model.dto.ResultDTO;
 public interface StatisticsService {
     
     ResultDTO getStatistics(String keyword);
+    
+    ResultDTO getMapStatistics(String keyword, Float neLongitude, Float neLatitude, Float swLongitude, Float swLatitude);
 }

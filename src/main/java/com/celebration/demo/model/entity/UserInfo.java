@@ -63,6 +63,9 @@ public class UserInfo {
 
     @Column(name = "slogan")
     private String slogan;
+    
+    @Column(name = "country")
+    private String country;
 
     public UserInfo(String userId, String image) {
         
@@ -83,5 +86,6 @@ public class UserInfo {
         this.emailAddIs = 0;
         this.wechatPNG = "";
         this.slogan = "";
+        this.country = "";
     }
 }
