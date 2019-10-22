@@ -28,4 +28,7 @@ public interface UserInfoRepository extends JpaRepository<UserInfo, String> {
     @Modifying
     @Query("UPDATE UserInfo userInfo SET userInfo.wechatPNG = :image WHERE userInfo.id = :id")
     void updateWechatPNG(@Param("id") String id, @Param("image") String image);
+
+    @Override
+    <S extends UserInfo> S saveAndFlush(S s);
 }

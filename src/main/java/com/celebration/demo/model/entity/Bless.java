@@ -30,19 +30,14 @@ public class Bless {
 
     @Column(name = "likes")
     private Integer likes;
-    
-    @Column(name = "cert")
-    private String cert;
 
     @Column(name = "create_time")
     private String createTime;
 
-    public Bless(String userId, String content, String image, String cert) {
+    public Bless(String userId, String content) {
         
         this.userId = userId;
         this.content = content;
-        this.image = image;
-        this.cert = cert;
         this.likes = 0;
     }
 }

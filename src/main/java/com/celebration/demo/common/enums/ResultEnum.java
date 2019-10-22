@@ -16,7 +16,7 @@ public enum ResultEnum {
      * 正常返回
      */
     SUCCESS(200, "正常返回"),
-    
+
     /**
      * 微信接口请求失败
      */

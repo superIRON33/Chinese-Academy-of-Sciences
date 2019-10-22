@@ -30,3 +30,8 @@ spring:
       max-file-size: 10MB
       #总的传输文件最大为10MB
       max-request-size: 10MB
+
+#存放图片位置
+web:
+  upload-path: /usr/local/javaweb/images
+  wechatPNG: /usr/local/javaweb/wechatPNG

@@ -6,6 +6,7 @@ import com.celebration.demo.service.base.QiniuService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 @Slf4j
 @RestController
@@ -20,7 +21,7 @@ public class BlessController {
     @PostMapping(value = "/bless")
     public ResultDTO saveBless(@RequestParam String userId,
                                @RequestParam String content,
-                               @RequestParam(value = "image", required = false) String image) {
+                               @RequestParam(value = "image", required = false) MultipartFile image) {
 
         return blessService.saveBless(userId, content, image);
     }

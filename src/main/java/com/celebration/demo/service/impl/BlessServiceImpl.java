@@ -2,6 +2,8 @@ package com.celebration.demo.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.celebration.demo.common.enums.ResultEnum;
+import com.celebration.demo.common.utils.ImageNameUtil;
+import com.celebration.demo.common.utils.ImageUploadUtil;
 import com.celebration.demo.common.utils.RandomNumberUtil;
 import com.celebration.demo.model.dto.BlessDTO;
 import com.celebration.demo.model.dto.ResultDTO;
@@ -14,10 +16,13 @@ import com.celebration.demo.repository.UserInfoRepository;
 import com.celebration.demo.service.BlessService;
 import com.celebration.demo.service.base.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
 import java.util.*;
 
 @Service
@@ -35,19 +40,32 @@ public class BlessServiceImpl implements BlessService {
     @Autowired
     private CommendRepository commendRepository;
 
-    @Override
-    public ResultDTO saveBless(String userId, String content, String image) {
+    @Value("${web.upload-path}")
+    private String path;
 
-        if (userInfoRepository.findById(userId).isPresent()) {
-            if (image == null) {
-                image = "";
+    @Override
+    public ResultDTO saveBless(String userId, String content, MultipartFile image) {
+
+        if (userInfoRepository.findUserInfoById(userId).isPresent()) {
+            Bless bless = new Bless(userId, content);
+            if (image != null) {
+                bless.setImage(ImageUploadUtil.upload(image, path, image.getOriginalFilename()));
+                blessRepository.saveAndFlush(bless);
+                if (bless.getImage().equals("")) {
+                    return new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+                }
+                Map<String, Object> map = new HashMap<>();
+                map.put("imageURL", bless.getImage());
+                map.put("count", blessRepository.countAllBy());
+                ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+                resultDTO.setData(map);
+                return resultDTO;
             }
-            String cert = RandomNumberUtil.getRandomNumber();
-            blessRepository.save(new Bless(userId, content, image, cert));
             Map<String, Object> map = new HashMap<>();
-            map.put("count", blessRepository.countAllBy());
-            map.put("cert", cert);
+            blessRepository.saveAndFlush(bless);
             ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+            map.put("imageURL", bless.getImage());
+            map.put("count", blessRepository.countAllBy());
             resultDTO.setData(map);
             return resultDTO;
         }
@@ -72,7 +90,7 @@ public class BlessServiceImpl implements BlessService {
                     userInfo.get().getName(),
                     userInfo.get().getImage(),
                     userInfo.get().getInstitute(),
-                    bless.getImage(), bless.getContent(), bless.getLikes(), bless.getCert(), value);
+                    bless.getImage(), bless.getContent(), bless.getLikes(),  value);
             blessDTOList.add(blessDTO);
         });
         if (blesses.size() != 0) {

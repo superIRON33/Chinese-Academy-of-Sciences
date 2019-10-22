@@ -16,6 +16,5 @@ public class BlessDTO {
     private String image;
     private String content;
     private Integer likes;
-    private String cert;
     private Integer isLikes;
 }

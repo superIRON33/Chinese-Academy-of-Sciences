@@ -1,32 +1,41 @@
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\Commend.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\dto\ResultDTO.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\Bless.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\HttpClientUtil.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\BlessServiceImpl.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\enums\WechatEnum.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\UserInfoController.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\dto\BlessDTO.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\DemoApplication.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\GenIdService.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\UserInfoRepository.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\WxServiceImpl.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\StatisticsController.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\GenericService.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\StatisticsService.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\BlessController.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\StatisticsRepository.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\WxService.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\enums\ResultEnum.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\RedisOperator.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\ImageUploadUtil.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\JpaIdGenUtil.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\UUIDUtil.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\UserInfoService.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\UserServiceImpl.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\BlessService.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\StatisticsServiceImpl.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\UserInfo.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\BlessRepository.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\ImageNameUtil.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\CommendRepository.java
-E:\github\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\enums\VariableEnum.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\UserInfoController.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\JpaIdGenUtil.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\RandomNumberUtil.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\MapService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\MapController.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\ImageUploadUtil.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\BlessService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\StatisticsServiceImpl.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\enums\VariableEnum.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\dto\MapUserInfoDTO.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\dto\ResultDTO.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\UserLocate.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\WxServiceImpl.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\BlessController.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\dto\BlessDTO.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\UserInfoRepository.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\enums\WechatEnum.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\UserLocateRepository.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\WxService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\Bless.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\RedisOperator.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\controller\StatisticsController.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\StatisticsRepository.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\GenIdService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\UserInfoService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\ImageNameUtil.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\BlessRepository.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\MapServiceImpl.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\DemoApplication.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\UserInfo.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\HttpClientUtil.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\utils\UUIDUtil.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\repository\CommendRepository.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\GenericService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\UserServiceImpl.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\base\QiniuService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\common\enums\ResultEnum.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\StatisticsService.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\dto\UserLocationDTO.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\service\impl\BlessServiceImpl.java
+E:\backend items\Chinese-Academy-of-Sciences\src\main\java\com\celebration\demo\model\entity\Commend.java

@@ -58,7 +58,7 @@ public class UserInfoController {
 
     @PostMapping(value = "/userInfo/code")
     public ResultDTO uploadWechatPNG(@RequestParam(value = "id") String id,
-                                     @RequestParam(value = "image") String image) {
+                                     @RequestParam(value = "image") MultipartFile image) {
         return userInfoService.uploadWechatPNG(id, image);
     }
 }
