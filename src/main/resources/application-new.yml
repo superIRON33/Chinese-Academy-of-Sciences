@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://210.76.211.110:3306/celebration?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=true
+    username: root
+    password: 123456
+  redis:
+    database: 0
+    host: 210.76.211.110
+    password: 123456
+    port: 6379
+  jpa:
+    hibernate:
+      # 在程序启动时更新实体类对应的表
+      ddl-auto: update
+    # 在日志中打印出执行的SQL语句信息
+    show-sql: true
+    naming:
+      physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+  jackson:
+    serialization:
+      indent-output: true
+  #文件传输大小和上限设置
+  servlet:
+    multipart:
+      #单个文件最大为10MB
+      max-file-size: 10MB
+      #总的传输文件最大为10MB
+      max-request-size: 10MB
+
+#存放图片位置
+web:
+  upload-path: /usr/local/javaweb/images
+  wechatPNG: /usr/local/javaweb/wechatPNG
