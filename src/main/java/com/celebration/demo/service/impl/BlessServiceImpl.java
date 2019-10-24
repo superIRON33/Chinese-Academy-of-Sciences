@@ -1,10 +1,11 @@
 package com.celebration.demo.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.celebration.demo.common.enums.ResultEnum;
-import com.celebration.demo.common.utils.ImageNameUtil;
+import com.celebration.demo.common.enums.WechatEnum;
+import com.celebration.demo.common.utils.HttpClientUtil;
 import com.celebration.demo.common.utils.ImageUploadUtil;
-import com.celebration.demo.common.utils.RandomNumberUtil;
 import com.celebration.demo.model.dto.BlessDTO;
 import com.celebration.demo.model.dto.ResultDTO;
 import com.celebration.demo.model.entity.Bless;
@@ -14,6 +15,7 @@ import com.celebration.demo.repository.BlessRepository;
 import com.celebration.demo.repository.CommendRepository;
 import com.celebration.demo.repository.UserInfoRepository;
 import com.celebration.demo.service.BlessService;
+import com.celebration.demo.service.WxService;
 import com.celebration.demo.service.base.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -22,7 +24,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
 import java.util.*;
 
 @Service
@@ -40,36 +41,55 @@ public class BlessServiceImpl implements BlessService {
     @Autowired
     private CommendRepository commendRepository;
 
+    @Autowired
+    private WxService wxService;
+    
     @Value("${web.upload-path}")
     private String path;
 
     @Override
     public ResultDTO saveBless(String userId, String content, MultipartFile image) {
-
-        if (userInfoRepository.findUserInfoById(userId).isPresent()) {
-            Bless bless = new Bless(userId, content);
-            if (image != null) {
-                bless.setImage(ImageUploadUtil.upload(image, path, image.getOriginalFilename()));
-                blessRepository.saveAndFlush(bless);
-                if (bless.getImage().equals("")) {
-                    return new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+    
+        String url = WechatEnum.CONTENT_DETECTION.getValue() + wxService.getAccessToken();
+        System.out.println(url);
+        Map<String, String> param = new HashMap();
+        param.put("content", content);
+        // 发起POST请求
+        System.out.println(JSON.toJSONString(param));
+        String wxResult = HttpClientUtil.doPost1(url, JSON.toJSONString(param));
+        // 解析Json数据
+        JSONObject jsonObject = JSONObject.parseObject(wxResult);
+        int code = (int) jsonObject.get("errcode");
+        System.out.println(code);
+        if (code == 0) {
+            if (userInfoRepository.findUserInfoById(userId).isPresent()) {
+                Bless bless = new Bless(userId, content);
+                if (image != null) {
+                    ImageUploadUtil.upload(image, path, image.getOriginalFilename());
+                    String imageURL = "https://action.ucas.ac.cn/images/" + image.getOriginalFilename();
+                    bless.setImage(imageURL);
+                    blessRepository.saveAndFlush(bless);
+                    if (bless.getImage().equals("")) {
+                        return new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+                    }
+                    Map<String, Object> map = new HashMap<>();
+                    map.put("imageURL", imageURL);
+                    map.put("count", blessRepository.countAllBy());
+                    ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+                    resultDTO.setData(map);
+                    return resultDTO;
                 }
                 Map<String, Object> map = new HashMap<>();
-                map.put("imageURL", bless.getImage());
+                blessRepository.saveAndFlush(bless);
+                map.put("imageURL", null);
                 map.put("count", blessRepository.countAllBy());
                 ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
                 resultDTO.setData(map);
                 return resultDTO;
             }
-            Map<String, Object> map = new HashMap<>();
-            blessRepository.saveAndFlush(bless);
-            ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
-            map.put("imageURL", bless.getImage());
-            map.put("count", blessRepository.countAllBy());
-            resultDTO.setData(map);
-            return resultDTO;
+            return new ResultDTO(ResultEnum.ID_INVALID);
         }
-        return new ResultDTO(ResultEnum.ID_INVALID);
+        return new ResultDTO(ResultEnum.CONTENT_ERROR);
     }
 
     @Override

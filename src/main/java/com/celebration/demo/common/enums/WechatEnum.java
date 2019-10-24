@@ -28,14 +28,19 @@ public enum WechatEnum {
     WX_CODE("https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token="),
     
     /**
+     * 文本检测接口
+     */
+    CONTENT_DETECTION("https://api.weixin.qq.com/wxa/msg_sec_check?access_token="),
+    
+    /**
      * 小程序appid
      */
-    APP_ID("wx28ced5b5c54c689a"),
+    APP_ID("wxb6de1fd8d30a4dea"),
     
     /**
      * 小程序secret
      */
-    SECRET("20de0fa45c8f217976ab0a48f76a0801");
+    SECRET("02ba4c93d659fbde9d3c40d0a0dca454");
     
     private String value;
 }

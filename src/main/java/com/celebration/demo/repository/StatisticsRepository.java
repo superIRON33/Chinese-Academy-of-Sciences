@@ -24,7 +24,7 @@ public interface StatisticsRepository extends JpaRepository<Bless, String> {
     
     @Transactional
     @Modifying
-    @Query(value = "SELECT u.province, SUM(b.likes) FROM bless b INNER JOIN user_info u WHERE u.id = b.user_id GROUP BY u.province ORDER BY SUM(b.likes) DESC", nativeQuery = true)
+    @Query(value = "SELECT u.province, SUM(b.likes) FROM bless b INNER JOIN user_locate u WHERE u.id = b.user_id GROUP BY u.province ORDER BY SUM(b.likes) DESC", nativeQuery = true)
     List<Object> statisticsProvince();
     
     @Transactional

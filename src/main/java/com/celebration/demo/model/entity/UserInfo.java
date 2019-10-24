@@ -28,9 +28,6 @@ public class UserInfo {
     @Column(name = "institute")
     private String institute;
 
-    @Column(name = "province")
-    private String province;
-    
     @Column(name = "degree")
     private String degree;
 
@@ -74,7 +71,6 @@ public class UserInfo {
         this.image = image;
         this.year = 1978;
         this.institute = "";
-        this.province = "";
         this.degree = "";
         this.workspace = "";
         this.workspaceIs = 0;

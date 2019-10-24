@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -25,6 +24,13 @@ public class UserServiceImpl implements UserInfoService {
     private String path;
 
     @Override
+    public ResultDTO getUserInfos() {
+        ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+        resultDTO.setData(userInfoRepository.findAll());
+        return resultDTO;
+    }
+    
+    @Override
     public ResultDTO getUserInfo(String id) {
 
         Optional<UserInfo> userInfo = userInfoRepository.findUserInfoById(id);
@@ -37,11 +43,11 @@ public class UserServiceImpl implements UserInfoService {
     }
     
     @Override
-    public ResultDTO updateUserInfo(String id, String name, Integer year, String institute, String province, String degree, String workspace, Integer workspaceIs, String address, Integer addressIs, String telephone, Integer telephoneIs, String emailAdd, Integer emailAddIs, String slogan, String country) {
+    public ResultDTO updateUserInfo(String id, String name, Integer year, String institute, String degree, String workspace, Integer workspaceIs, String address, Integer addressIs, String telephone, Integer telephoneIs, String emailAdd, Integer emailAddIs, String slogan, String country) {
     
         Optional<UserInfo> userInfo = userInfoRepository.findUserInfoById(id);
         if (userInfo.isPresent()) {
-            userInfoRepository.save(new UserInfo(id, name, userInfo.get().getImage(), year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, userInfo.get().getWechatPNG(), slogan, country));
+            userInfoRepository.save(new UserInfo(id, name, userInfo.get().getImage(), year, institute, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, userInfo.get().getWechatPNG(), slogan, country));
             ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
             return resultDTO;
         }
@@ -52,7 +58,8 @@ public class UserServiceImpl implements UserInfoService {
     public ResultDTO uploadWechatPNG(String id, MultipartFile image) {
         
         if (userInfoRepository.findUserInfoById(id).isPresent()) {
-            String imageURL = ImageUploadUtil.upload(image, path, image.getOriginalFilename());
+            ImageUploadUtil.upload(image, path, image.getOriginalFilename());
+            String imageURL = "https://action.ucas.ac.cn/wechatPNG/" + image.getOriginalFilename();
             userInfoRepository.updateWechatPNG(id, imageURL);
             Map<String, Object> map = new HashMap<>();
             map.put("imageURL", imageURL);

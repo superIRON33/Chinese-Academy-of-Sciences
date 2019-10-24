@@ -27,6 +27,11 @@ public class UserInfoController {
         return wxService.isWxLogin(code, userId, image);
     }
 
+    @GetMapping(value = "/userInfos")
+    public ResultDTO getUserInfos() {
+        return userInfoService.getUserInfos();
+    }
+    
     @GetMapping(value = "/userInfo")
     public ResultDTO getUserInfo(@RequestParam(value = "id") String id) {
 
@@ -39,7 +44,6 @@ public class UserInfoController {
                                     @RequestParam(value = "name") String name,
                                     @RequestParam(value = "year") Integer year,
                                     @RequestParam(value = "institute") String institute,
-                                    @RequestParam(value = "province") String province,
                                     @RequestParam(value = "degree") String degree,
                                     @RequestParam(value = "workspace") String workspace,
                                     @RequestParam(value = "workspaceIs") Integer workspaceIs,
@@ -53,7 +57,7 @@ public class UserInfoController {
                                     @RequestParam(value = "country") String country) {
     
         log.info("更新用户信息: {}(id)", id);
-        return userInfoService.updateUserInfo(id, name, year, institute, province, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, slogan, country);
+        return userInfoService.updateUserInfo(id, name, year, institute, degree, workspace, workspaceIs, address, addressIs, telephone, telephoneIs, emailAdd, emailAddIs, slogan, country);
     }
 
     @PostMapping(value = "/userInfo/code")

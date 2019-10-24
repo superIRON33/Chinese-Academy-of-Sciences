@@ -45,8 +45,12 @@ public enum ResultEnum {
     /**
      * 已经点赞过
      */
-    COMMEND_EXIST(510, "您已经点赞过");
-
+    COMMEND_EXIST(510, "您已经点赞过"),
+    
+    /**
+     * 内容违规
+     */
+    CONTENT_ERROR(87014, "内容含有违法违规内容");
     private Integer code;
     private String message;
 }
