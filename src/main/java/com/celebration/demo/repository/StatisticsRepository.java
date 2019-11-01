@@ -34,16 +34,16 @@ public interface StatisticsRepository extends JpaRepository<Bless, String> {
     
     @Transactional
     @Modifying
-    @Query(value = "SELECT u.province, COUNT(u.province), p.longitude, p.latitude FROM user_locate u INNER JOIN province p WHERE u.longitude BETWEEN :swLongitude AND :neLongitude AND u.latitude BETWEEN :swLatitude AND :neLatitude AND p.name = u.province GROUP BY u.province ORDER BY COUNT(u.province)", nativeQuery = true)
+    @Query(value = "SELECT u.province, COUNT(u.province), any_value(p.longitude), any_value(p.latitude) FROM user_locate u INNER JOIN province p WHERE u.longitude BETWEEN :swLongitude AND :neLongitude AND u.latitude BETWEEN :swLatitude AND :neLatitude AND p.name = u.province GROUP BY u.province ORDER BY COUNT(u.province)", nativeQuery = true)
     List<Object> statisticsMapProvince(@Param("swLongitude") Float swLongitude, @Param("neLongitude") Float neLongitude, @Param("swLatitude") Float swLatitude, @Param("neLatitude") Float neLatitude);
     
     @Transactional
     @Modifying
-    @Query(value = "SELECT u.city, COUNT(u.city), p.longitude, p.latitude FROM user_locate u INNER JOIN city p WHERE u.longitude BETWEEN :swLongitude AND :neLongitude AND u.latitude BETWEEN :swLatitude AND :neLatitude AND p.name = u.city GROUP BY u.city ORDER BY COUNT(u.city)", nativeQuery = true)
+    @Query(value = "SELECT u.city, COUNT(u.city), any_value(p.longitude), any_value(p.latitude) FROM user_locate u INNER JOIN city p WHERE u.longitude BETWEEN :swLongitude AND :neLongitude AND u.latitude BETWEEN :swLatitude AND :neLatitude AND p.name = u.city GROUP BY u.city ORDER BY COUNT(u.city)", nativeQuery = true)
     List<Object> statisticsMapCity(@Param("swLongitude") Float swLongitude, @Param("neLongitude") Float neLongitude, @Param("swLatitude") Float swLatitude, @Param("neLatitude") Float neLatitude);
     
     @Transactional
     @Modifying
-    @Query(value = "SELECT u.region, COUNT(u.region), p.longitude, p.latitude FROM user_locate u INNER JOIN region p WHERE u.longitude BETWEEN :swLongitude AND :neLongitude AND u.latitude BETWEEN :swLatitude AND :neLatitude AND p.name = u.region GROUP BY u.region ORDER BY COUNT(u.region)", nativeQuery = true)
+    @Query(value = "SELECT u.region, COUNT(u.region), any_value(p.longitude), any_value(p.latitude) FROM user_locate u INNER JOIN region p WHERE u.longitude BETWEEN :swLongitude AND :neLongitude AND u.latitude BETWEEN :swLatitude AND :neLatitude AND p.name = u.region GROUP BY u.region ORDER BY COUNT(u.region)", nativeQuery = true)
     List<Object> statisticsMapRegion(@Param("swLongitude") Float swLongitude, @Param("neLongitude") Float neLongitude, @Param("swLatitude") Float swLatitude, @Param("neLatitude") Float neLatitude);
 }

@@ -4,13 +4,13 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://210.76.211.110:3306/celebration?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=true
+    url: jdbc:mysql://210.76.211.111:3306/celebration?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=true
     username: root
-    password: 123456
+    password: wxLP@db111_YQL211$
   redis:
     database: 0
-    host: 210.76.211.110
-    password: 123456
+    host: 210.76.211.111
+    password: 8MlD_979RGoi%UWz7q#GAwqJ$
     port: 6379
   jpa:
     hibernate:

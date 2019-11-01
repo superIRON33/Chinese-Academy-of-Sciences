@@ -1,0 +1,1020 @@
+0
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping auto run aliyunservice or agent...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Timers.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Daily Cleanup of Temporary Directories.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Dump dmesg to /var/log/dmesg.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Session 41 of user nobody.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Removed slice system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Session 42 of user nginx.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Session 38 of user root.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Session 35 of user nginx.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Run docker-cleanup every hour.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Multi-User System.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping System Logging Service...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Login Prompts.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Getty on tty1...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Serial Getty on ttyS0...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Resets System Activity Logs.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping MySQL Server...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Job spooling tools...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Dynamic System Tuning Daemon...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Execute cloud user/final scripts.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping SYSV: Starts and stops guest agent...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Command Scheduler...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping nginx - high performance web server...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping OpenSSH server daemon...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Docker Application Container Engine...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Closed LVM2 poll daemon socket.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Apply the settings specified in cloud-config.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Cloud-config availability.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Network Time Service...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Session 37 of user root.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Session 36 of user nobody.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:30:29.521262999+08:00" level=info msg="Processing signal 'terminated'"
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Command Scheduler.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Job spooling tools.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Network Time Service.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Serial Getty on ttyS0.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Getty on tty1.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped auto run aliyunservice or agent.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-34.el7" x-pid="1029" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped OpenSSH server daemon.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Session 38 of user root.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Session 36 of user nobody.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Session 35 of user nginx.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Initial cloud-init job (metadata service crawler).
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Initial cloud-init job (pre-networking).
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped cloud-init upgrade service.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Starting Show Plymouth Power Off Screen...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Removed slice system-getty.slice.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Removed slice system-serial\x2dgetty.slice.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd-logind: Removed session 38.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Session 41 of user nobody.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Session 42 of user nginx.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Removed slice User Slice of nginx.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Removed slice User Slice of nobody.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Unmounted /run/user/99.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Unmounted /run/user/996.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped System Logging Service.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped SYSV: Starts and stops guest agent.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping SYSV: Start and Stop redis...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z redis: Stopping ...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped nginx - high performance web server.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Session 37 of user root.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Removed slice User Slice of root.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Login Service...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopping Permit User Sessions...
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Stopped Login Service.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Unmounted /var/lib/docker/overlay2.
+Oct 30 16:30:29 iz2ze7720r8yhrhk17njh4z systemd: Unmounted /var/lib/docker/containers.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z redis: NOAUTH Authentication required.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped SYSV: Start and Stop redis.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z redis: Redis stopped
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopping LSB: aegis update....
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped Permit User Sessions.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z aegis: Aegis stopped
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped LSB: aegis update..
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Remote File Systems.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Network is Online.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Received SIGRTMIN+20 from PID 2517 (plymouthd).
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Started Show Plymouth Power Off Screen.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:30:30.19276667+08:00" level=info msg="stopping containerd after receiving terminated"
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:30:30.215511573+08:00" level=fatal msg="containerd: serve grpc" error="accept unix /var/run/docker/libcontainerd/docker-containerd.sock: use of closed network connection"
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped Dynamic System Tuning Daemon.
+Oct 30 16:30:30 iz2ze7720r8yhrhk17njh4z systemd: Stopped Docker Application Container Engine.
+Oct 30 16:30:31 iz2ze7720r8yhrhk17njh4z systemd: Stopped MySQL Server.
+Oct 30 16:30:31 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Network.
+Oct 30 16:30:31 iz2ze7720r8yhrhk17njh4z systemd: Stopping LSB: Bring up/down networking...
+Oct 30 16:30:32 iz2ze7720r8yhrhk17njh4z network: Shutting down interface eth0:  [  OK  ]
+Oct 30 16:30:32 iz2ze7720r8yhrhk17njh4z kernel: IPv6: ADDRCONF(NETDEV_CHANGE): lo: link becomes ready
+Oct 30 16:30:32 iz2ze7720r8yhrhk17njh4z network: Shutting down loopback interface:  [  OK  ]
+Oct 30 16:30:32 iz2ze7720r8yhrhk17njh4z systemd: Stopped LSB: Bring up/down networking.
+Oct 30 16:30:32 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Network (Pre).
+Oct 30 16:30:32 iz2ze7720r8yhrhk17njh4z systemd: Stopping firewalld - dynamic firewall daemon...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: Ebtables v2.0 unregistered
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped firewalld - dynamic firewall daemon.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopping Authorization Manager...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopping D-Bus System Message Bus...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Authorization Manager.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped D-Bus System Message Bus.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Basic System.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Sockets.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Closed D-Bus System Message Bus Socket.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Slices.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Removed slice User and Session Slice.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Paths.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Flexible branding.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Forward Password Requests to Wall Directory Watch.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target System Initialization.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopping Update UTMP about System Boot/Shutdown...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Setup Virtual Console.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopping Load/Save Random Seed...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Read and set NIS domainname from /etc/sysconfig/network.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Apply Kernel Variables.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Local Encrypted Volumes.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Forward Password Requests to Plymouth Directory Watch.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Load/Save Random Seed.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Update UTMP about System Boot/Shutdown.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopping Security Auditing Service...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z auditd[493]: The audit daemon is exiting.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1305 audit(1572424233.793:1484): audit_pid=0 old=493 auid=4294967295 ses=4294967295 res=1
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1130 audit(1572424233.796:1485): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Security Auditing Service.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1131 audit(1572424233.798:1486): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Create Volatile Files and Directories.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1130 audit(1572424233.804:1487): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1131 audit(1572424233.808:1488): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Import network configuration from initramfs.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1130 audit(1572424233.812:1489): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rhel-import-state comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1131 audit(1572424233.822:1490): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rhel-import-state comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Local File Systems.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Unmounting /run/user/0...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Configure read-only root support.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1130 audit(1572424233.835:1491): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rhel-readonly comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1131 audit(1572424233.846:1492): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rhel-readonly comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Unmounted /run/user/0.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Reached target Unmount All Filesystems.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Local File Systems (Pre).
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopping Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Remount Root and Kernel File Systems.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z kernel: type=1130 audit(1572424233.935:1493): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped Create Static Device Nodes in /dev.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Reached target Shutdown.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Reached target Final Step.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Starting Power-Off...
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Swap.
+Oct 30 16:30:33 iz2ze7720r8yhrhk17njh4z systemd: Shutting down.
+Oct 30 16:30:34 iz2ze7720r8yhrhk17njh4z systemd-shutdown[1]: Syncing filesystems and block devices.
+Oct 30 16:30:34 iz2ze7720r8yhrhk17njh4z systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+Oct 30 16:30:34 iz2ze7720r8yhrhk17njh4z journal: Journal stopped
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.8M free of 911.0M available → current limit 91.9M).
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys cpuset
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys cpu
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys cpuacct
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Linux version 3.10.0-957.21.3.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ) #1 SMP Tue Jun 18 16:35:19 UTC 2019
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-3.10.0-957.21.3.el7.x86_64 root=UUID=59d9ca7b-4f39-4c0c-9334-c56c182076b5 ro crashkernel=auto net.ifnames=0 idle=halt console=tty0 console=ttyS0,115200n8 LANG=en_US.UTF-8
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: e820: BIOS-provided physical RAM map:
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffdffff] usable
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x000000007ffe0000-0x000000007fffffff] reserved
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NX (Execute Disable) protection: active
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SMBIOS 2.8 present.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: DMI: Alibaba Cloud Alibaba Cloud ECS, BIOS 3288b3c 04/01/2014
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Hypervisor detected: KVM
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: e820: last_pfn = 0x7ffe0 max_arch_pfn = 0x400000000
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PAT configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- UC  
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: found SMP MP-table at [mem 0x000f5a00-0x000f5a0f] mapped at [ffffffffff200a00]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Using GB pages for direct mapping
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: RAMDISK: [mem 0x35c29000-0x36e0cfff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Early table checksum verification disabled
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: RSDP 00000000000f5800 00014 (v00 BOCHS )
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: RSDT 000000007ffe18ef 00034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: FACP 000000007ffe0b52 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: DSDT 000000007ffe0040 00B12 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: FACS 000000007ffe0000 00040
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: SSDT 000000007ffe0bc6 00BF9 (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: APIC 000000007ffe17bf 00078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: SRAT 000000007ffe1837 000B8 (v01 BOCHS  BXPCSRAT 00000001 BXPC 00000001)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SRAT: Node 0 PXM 0 [mem 0x00100000-0x7fffffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0x7ffdffff] -> [mem 0x00000000-0x7ffdffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NODE_DATA(0) allocated [mem 0x7ffb9000-0x7ffdffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Reserving 161MB of memory at 688MB for crashkernel (System RAM: 2047MB)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: kvm-clock: cpu 0, msr 0:7ff68001, primary cpu clock
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: kvm-clock: using sched offset of 7052336703 cycles
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Zone ranges:
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel:  DMA      [mem 0x00001000-0x00ffffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel:  DMA32    [mem 0x01000000-0xffffffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel:  Normal   empty
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Movable zone start for each node
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Early memory node ranges
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel:  node   0: [mem 0x00001000-0x0009efff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel:  node   0: [mem 0x00100000-0x7ffdffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initmem setup node 0 [mem 0x00001000-0x7ffdffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PM-Timer IO Port: 0x608
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Using ACPI (MADT) for SMP configuration information
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: e820: [mem 0x80000000-0xfeffbfff] available for PCI devices
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Booting paravirtualized kernel on KVM
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: setup_percpu: NR_CPUS:5120 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PERCPU: Embedded 38 pages/cpu @ffff9c9abfc00000 s118784 r8192 d28672 u2097152
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: KVM setup async PF for cpu 0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: kvm-stealtime: cpu 0, msr 7fc1c040
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515945
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Policy zone: DMA32
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.10.0-957.21.3.el7.x86_64 root=UUID=59d9ca7b-4f39-4c0c-9334-c56c182076b5 ro crashkernel=auto net.ifnames=0 idle=halt console=tty0 console=ttyS0,115200n8 LANG=en_US.UTF-8
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Memory: 1860896k/2097024k available (7668k kernel code, 392k absent, 235736k reserved, 6052k data, 1876k init)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: x86/pti: Unmapping kernel while in userspace
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Hierarchical RCU implementation.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: #011RCU restricting CPUs from NR_CPUS=5120 to nr_cpu_ids=1.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NR_IRQS:327936 nr_irqs:256 0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Console: colour VGA+ 80x25
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: console [tty0] enabled
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: console [ttyS0] enabled
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: allocated 8388608 bytes of page_cgroup
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: tsc: Detected 2499.996 MHz processor
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=2499996)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pid_max: default: 32768 minimum: 301
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Security Framework initialized
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SELinux:  Initializing.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Yama: becoming mindful.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys memory
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys devices
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys freezer
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys net_cls
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys blkio
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys perf_event
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys hugetlb
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys pids
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing cgroup subsys net_prio
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: mce: CPU supports 10 MCE banks
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: tlb_flushall_shift: 6
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Speculative Store Bypass: Vulnerable
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: FEATURE SPEC_CTRL Present
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: FEATURE IBPB_SUPPORT Present
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Spectre V2 : Enabling Indirect Branch Prediction Barrier
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Spectre V2 : Mitigation: Full retpoline
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Freeing SMP alternatives: 28k freed
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Core revision 20130517
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: All ACPI Tables successfully acquired
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ftrace: allocating 29208 entries in 115 pages
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Enabling x2apic
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Enabled x2apic
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Switched APIC routing to physical x2apic.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz (fam: 06, model: 4f, stepping: 01)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Performance Events: unsupported p6 CPU model 79 no PMU driver, software events only.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: KVM setup paravirtual spinlock
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Brought up 1 CPUs
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: smpboot: Max logical packages: 1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: smpboot: Total of 1 processors activated (4999.99 BogoMIPS)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: devtmpfs: initialized
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: EVM: security.selinux
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: EVM: security.ima
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: EVM: security.capability
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: atomic64 test passed for x86-64 platform with CX8 and with SSE
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pinctrl core: initialized pinctrl subsystem
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: RTC time: 16:30:52, date: 10/30/19
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NET: Registered protocol family 16
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: bus type PCI registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PCI: Using configuration type 1 for base access
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Added _OSI(Module Device)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Added _OSI(Processor Device)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Interpreter enabled
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: (supports S0 S5)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Enabled 16 GPEs in block 00 to 0F
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [3] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [4] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [5] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [6] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [7] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [8] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [9] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [10] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [11] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [12] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [13] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [14] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [15] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [16] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [17] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [18] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [19] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [20] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [21] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [22] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [23] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [24] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [25] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [26] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [27] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [28] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [29] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [30] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: acpiphp: Slot [31] registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PCI host bridge to bus 0000:00
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xadff window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [io  0xae0f-0xaeff window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [io  0xaf20-0xafdf window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [io  0xafe4-0xffff window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff window]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: vgaarb: loaded
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: vgaarb: bridge control possible 0000:00:02.0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: SCSI subsystem initialized
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: bus type USB registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbcore: registered new interface driver usbfs
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbcore: registered new interface driver hub
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbcore: registered new device driver usb
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: EDAC MC: Ver: 3.0.0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: PCI: Using ACPI for IRQ routing
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NetLabel: Initializing
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NetLabel:  domain hash size = 128
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NetLabel:  unlabeled traffic allowed by default
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: amd_nb: Cannot enumerate AMD northbridges
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Switched to clocksource kvm-clock
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pnp: PnP ACPI init
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: bus type PNP registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pnp: PnP ACPI: found 5 devices
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: bus type PNP unregistered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NET: Registered protocol family 2
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: TCP: reno registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NET: Registered protocol family 1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Unpacking initramfs...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Freeing initrd memory: 18320k freed
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: sha1_ssse3: Using AVX2 optimized SHA-1 implementation
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: sha256_ssse3: Using AVX2 optimized SHA-256 implementation
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initialise system trusted keyring
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: audit: initializing netlink socket (disabled)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: type=2000 audit(1572424253.088:1): initialized
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: HugeTLB registered 1 GB page size, pre-allocated 0 pages
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: zpool: loaded
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: zbud: loaded
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: VFS: Disk quotas dquot_6.5.2
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: msgmni has been set to 3670
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Key type big_key registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NET: Registered protocol family 38
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Key type asymmetric registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Asymmetric key parser 'x509' registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: io scheduler noop registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: io scheduler deadline registered (default)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: io scheduler cfq registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: io scheduler mq-deadline registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: io scheduler kyber registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ACPI: Power Button [PWRF]
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: GHES: HEST is not enabled!
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: 00:04: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Non-volatile memory driver v1.3
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Linux agpgart interface v0.103
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: crash memory driver: version 1.1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: rdac: device handler registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: hp_sw: device handler registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: emc: device handler registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: alua: device handler registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: libphy: Fixed MDIO Bus: probed
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ehci-pci: EHCI PCI platform driver
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: ohci-pci: OHCI PCI platform driver
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: uhci_hcd 0000:00:01.2: detected 2 ports
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c040
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb usb1: Product: UHCI Host Controller
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb usb1: Manufacturer: Linux 3.10.0-957.21.3.el7.x86_64 uhci_hcd
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb usb1: SerialNumber: 0000:00:01.2
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: hub 1-0:1.0: USB hub found
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: hub 1-0:1.0: 2 ports detected
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbcore: registered new interface driver usbserial_generic
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbserial: USB Serial support registered for generic
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: mousedev: PS/2 mouse device common for all mice
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: rtc_cmos 00:00: RTC can wake from S4
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input2
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: cpuidle: using governor menu
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbcore: registered new interface driver usbhid
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usbhid: USB HID core driver
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: drop_monitor: Initializing network drop monitor service
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: TCP: cubic registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Initializing XFRM netlink socket
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NET: Registered protocol family 10
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: NET: Registered protocol family 17
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: mpls_gso: MPLS GSO support
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Loading compiled-in X.509 certificates
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Loaded X.509 cert 'CentOS Linux kpatch signing key: ea0413152cde1d98ebdca3fe6f0230904c9ef717'
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Loaded X.509 cert 'CentOS Linux Driver update signing key: 7f421ee0ab69461574bb358861dbe77762a4201b'
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Loaded X.509 cert 'CentOS Linux kernel signing key: 1e5f1d87704bf338012fa2b0fe16945997b33127'
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: registered taskstats version 1
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Key type trusted registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Key type encrypted registered
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: IMA: No TPM chip found, activating TPM-bypass! (rc=-19)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel:  Magic number: 7:455:541
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: rtc_cmos 00:00: setting system clock to 2019-10-30 16:30:53 UTC (1572453053)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Freeing unused kernel memory: 1876k freed
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Write protecting the kernel read-only data: 12288k
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Freeing unused kernel memory: 512k freed
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: Freeing unused kernel memory: 600k freed
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Detected virtualization kvm.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Detected architecture x86-64.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Running in initial RAM disk.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Set hostname to <iz2ze7720r8yhrhk17njh4z>.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Reached target Swap.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Reached target Timers.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Reached target Local File Systems.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Created slice Root Slice.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Listening on udev Kernel Socket.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Created slice System Slice.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Reached target Slices.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Listening on Journal Socket.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Starting Journal Service...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Starting dracut cmdline hook...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Starting Setup Virtual Console...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Starting Apply Kernel Variables...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Listening on udev Control Socket.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Reached target Sockets.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z journal: Journal started
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd[1]: Started Journal Service.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started Apply Kernel Variables.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started Create list of required static device nodes for the current kernel.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Starting Create Static Device Nodes in /dev...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started Create Static Device Nodes in /dev.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: random: fast init done
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started Setup Virtual Console.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started dracut cmdline hook.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Starting dracut pre-udev hook...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started dracut pre-udev hook.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Starting udev Kernel Device Manager...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd-udevd: starting version 219
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started udev Kernel Device Manager.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Starting udev Coldplug all Devices...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Mounting Configuration File System...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Mounted Configuration File System.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started udev Coldplug all Devices.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Reached target System Initialization.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Starting dracut initqueue hook...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Starting Show Plymouth Boot Screen...
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb 1-1: Product: QEMU USB Tablet
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb 1-1: Manufacturer: QEMU
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: usb 1-1: SerialNumber: 42
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: FDC 0 is a S82078B
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/input/input4
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z kernel: hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Received SIGRTMIN+20 from PID 214 (plymouthd).
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started Show Plymouth Boot Screen.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Reached target Paths.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Oct 31 00:30:53 iz2ze7720r8yhrhk17njh4z systemd: Reached target Basic System.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: scsi host0: ata_piix
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: scsi host1: ata_piix
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc0c0 irq 14
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc0c8 irq 15
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: virtio-pci 0000:00:04.0: virtio_pci: leaving for legacy driver
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [TTM] Zone  kernel: Available graphics memory: 941116 kiB
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [TTM] Initializing pool allocator
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [TTM] Initializing DMA pool allocator
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [drm] fb mappable at 0xFC000000
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [drm] vram aper at 0xFC000000
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [drm] size 33554432
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [drm] fb depth is 24
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [drm]    pitch is 3072
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: fbcon: cirrusdrmfb (fb0) is primary device
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: Console: switching to colour frame buffer device 128x48
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: cirrus 0000:00:02.0: fb0: cirrusdrmfb frame buffer device
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: [drm] Initialized cirrus 1.0.0 20110418 for 0000:00:02.0 on minor 0
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: tsc: Refined TSC clocksource calibration: 2500.010 MHz
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: virtio-pci 0000:00:06.0: virtio_pci: leaving for legacy driver
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: virtio_blk virtio2: [vda] 83886080 512-byte logical blocks (42.9 GB/40.0 GiB)
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: vda: vda1
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Found device /dev/disk/by-uuid/59d9ca7b-4f39-4c0c-9334-c56c182076b5.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting File System Check on /dev/disk/by-uuid/59d9ca7b-4f39-4c0c-9334-c56c182076b5...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Started dracut initqueue hook.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reached target Remote File Systems (Pre).
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reached target Remote File Systems.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd-fsck: /dev/vda1: clean, 61569/2621440 files, 1593427/10485248 blocks
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Started File System Check on /dev/disk/by-uuid/59d9ca7b-4f39-4c0c-9334-c56c182076b5.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Mounting /sysroot...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z kernel: EXT4-fs (vda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Mounted /sysroot.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reached target Initrd Root File System.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting Reload Configuration from the Real Root...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reloading.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Started Reload Configuration from the Real Root.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reached target Initrd File Systems.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reached target Initrd Default Target.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting dracut pre-pivot and cleanup hook...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Started dracut pre-pivot and cleanup hook.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting Cleaning Up and Shutting Down Daemons...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting Plymouth switch root service...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Timers.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped Cleaning Up and Shutting Down Daemons.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped dracut pre-pivot and cleanup hook.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Remote File Systems.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Remote File Systems (Pre).
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped dracut initqueue hook.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Initrd Default Target.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Basic System.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target System Initialization.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Local File Systems.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopping udev Kernel Device Manager...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped Apply Kernel Variables.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped udev Coldplug all Devices.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Swap.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Slices.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Paths.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped target Sockets.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped udev Kernel Device Manager.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped dracut pre-udev hook.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped dracut cmdline hook.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped Create Static Device Nodes in /dev.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Stopped Create list of required static device nodes for the current kernel.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Closed udev Kernel Socket.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Closed udev Control Socket.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting Cleanup udevd DB...
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Started Cleanup udevd DB.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Reached target Switch Root.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Started Plymouth switch root service.
+Oct 31 00:30:54 iz2ze7720r8yhrhk17njh4z systemd: Starting Switch Root...
+Oct 31 00:30:55 iz2ze7720r8yhrhk17njh4z systemd: Switching root.
+Oct 31 00:30:55 iz2ze7720r8yhrhk17njh4z journal: Journal stopped
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.8M free of 911.0M available → current limit 91.9M).
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd-journald[84]: Received SIGTERM from PID 1 (systemd).
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z kernel: SELinux:  Disabled at runtime.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z kernel: type=1404 audit(1572453055.892:2): selinux=0 auid=4294967295 ses=4294967295
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd[1]: RTC configured in localtime, applying delta of 480 minutes to system time.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd[1]: Inserted module 'ip_tables'
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z kernel: EXT4-fs (vda1): re-mounted. Opts: (null)
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z journal: Journal started
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: Detected virtualization kvm.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: Detected architecture x86-64.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: Set hostname to <iz2ze7720r8yhrhk17njh4z>.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: Configuration file /usr/lib/systemd/system/eni.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: Starting Flush Journal to Persistent Storage...
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z systemd: Started Read and set NIS domainname from /etc/sysconfig/network.
+Oct 30 16:30:58 iz2ze7720r8yhrhk17njh4z journal: Permanent journal is using 1.0G (max allowed 3.9G, trying to leave 4.0G free of 31.9G available → current limit 3.9G).
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z journal: Time spent on flushing to /var is 618.396ms for 584 entries.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: cryptd: max_cpu_qlen set to 1000
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: AVX2 version of gcm_enc/dec engaged.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: AES CTR mode by8 optimization enabled
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: ppdev: user-space parallel port driver
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: alg: No test for __generic-gcm-aes-aesni (__driver-generic-gcm-aes-aesni)
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: EDAC sbridge:  Ver: 1.1.2 
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Create Static Device Nodes in /dev.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Starting udev Kernel Device Manager...
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started udev Coldplug all Devices.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd-udevd: starting version 219
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started LVM2 metadata daemon.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Apply Kernel Variables.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Configure read-only root support.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Starting Load/Save Random Seed...
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Load/Save Random Seed.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started udev Kernel Device Manager.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Found device /dev/ttyS0.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Reached target Local File Systems (Pre).
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Reached target Local File Systems.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Starting Import network configuration from initramfs...
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Starting Tell Plymouth To Write Out Runtime Data...
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Tell Plymouth To Write Out Runtime Data.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Import network configuration from initramfs.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Flush Journal to Persistent Storage.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Starting Create Volatile Files and Directories...
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Started Create Volatile Files and Directories.
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z systemd: Starting Security Auditing Service...
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z auditd[494]: Started dispatcher: /sbin/audispd pid: 496
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z kernel: type=1305 audit(1572424259.870:3): audit_pid=494 old=0 auid=4294967295 ses=4294967295 res=1
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z audispd: No plugins found, exiting
+Oct 30 16:30:59 iz2ze7720r8yhrhk17njh4z auditd[494]: Init complete, auditd 2.8.4 listening for events (startup state enable)
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z augenrules: /sbin/augenrules: No change
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Security Auditing Service.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Update UTMP about System Boot/Shutdown...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Update UTMP about System Boot/Shutdown.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Reached target System Initialization.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Run docker-cleanup every hour.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Flexible branding.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Reached target Paths.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Daily Cleanup of Temporary Directories.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Reached target Timers.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Listening on D-Bus System Message Bus Socket.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Reached target Sockets.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Reached target Basic System.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Authorization Manager...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Network Time Service...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started irqbalance daemon.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Permit User Sessions...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Dump dmesg to /var/log/dmesg...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Resets System Activity Logs...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Login Service...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started D-Bus System Message Bus.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[513]: ntpd 4.2.6p5@1.2349-o Fri Apr 13 12:52:27 UTC 2018 (1)
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: proto: precision = 0.046 usec
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Network Time Service.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Permit User Sessions.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Dump dmesg to /var/log/dmesg.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Resets System Activity Logs.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd-logind: New seat seat0.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Job spooling tools.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Terminate Plymouth Boot Screen...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Command Scheduler.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting Wait for Plymouth Boot Screen to Quit...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Login Service.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp1.aliyun.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp1.aliyun.com' on line 22. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp1.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp1.cloud.aliyuncs.com' on line 23. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp10.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp10.cloud.aliyuncs.com' on line 24. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp11.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp11.cloud.aliyuncs.com' on line 25. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp12.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp12.cloud.aliyuncs.com' on line 26. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp2.aliyun.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp2.aliyun.com' on line 27. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp2.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp2.cloud.aliyuncs.com' on line 28. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp3.aliyun.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp3.aliyun.com' on line 29. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp3.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp3.cloud.aliyuncs.com' on line 30. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp4.aliyun.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp4.aliyun.com' on line 31. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp4.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp4.cloud.aliyuncs.com' on line 32. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp5.aliyun.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp5.aliyun.com' on line 33. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp5.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp5.cloud.aliyuncs.com' on line 34. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp6.aliyun.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp6.aliyun.com' on line 35. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp6.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp6.cloud.aliyuncs.com' on line 36. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp7.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp7.cloud.aliyuncs.com' on line 37. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp8.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp8.cloud.aliyuncs.com' on line 38. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: getaddrinfo: "ntp9.cloud.aliyuncs.com" invalid host address, ignored
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z ntpd[528]: restrict: error in address 'ntp9.cloud.aliyuncs.com' on line 39. Ignoring...
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Received SIGRTMIN+21 from PID 214 (plymouthd).
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Terminate Plymouth Boot Screen.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Wait for Plymouth Boot Screen to Quit.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Serial Getty on ttyS0.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Getty on tty1.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Reached target Login Prompts.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z polkitd[512]: Started polkitd version 0.112
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Started Authorization Manager.
+Oct 30 16:31:00 iz2ze7720r8yhrhk17njh4z systemd: Starting firewalld - dynamic firewall daemon...
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z systemd: Started firewalld - dynamic firewall daemon.
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z systemd: Reached target Network (Pre).
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z systemd: Network Manager is not active.
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z systemd: Dependency failed for Network Manager Wait Online.
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z systemd: Job NetworkManager-wait-online.service/start failed with result 'dependency'.
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z systemd: Starting LSB: Bring up/down networking...
+Oct 30 16:31:03 iz2ze7720r8yhrhk17njh4z kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z kernel: Ebtables v2.0 registered
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z kernel: nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z kernel: Netfilter messages via NETLINK v0.30.
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z kernel: ip_set: protocol 6
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z network: Bringing up loopback interface:  [  OK  ]
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z network: Bringing up interface eth0:
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z dhclient[768]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x59e28080)
+Oct 30 16:31:04 iz2ze7720r8yhrhk17njh4z dhclient[768]: DHCPACK from 172.17.127.253 (xid=0x59e28080)
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z NET[905]: /usr/sbin/dhclient-script : updated /etc/resolv.conf
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z dhclient[768]: bound to 172.17.125.93 -- renewal in 152955595 seconds.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z network: Determining IP information for eth0... done.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z network: [  OK  ]
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Started LSB: Bring up/down networking.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Started ECS ENI Interface Scan.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Reached target Network.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting Postfix Mail Transport Agent...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting cloud-init upgrade service...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting Dynamic System Tuning Daemon...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting ECS enable networking multiqueue...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting MySQL Server...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Reached target Network is Online.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting nginx - high performance web server...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting LSB: aegis update....
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting Crash recovery kernel arming...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting System Logging Service...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Started cloud-init upgrade service.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Starting Initial cloud-init job (pre-networking)...
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z network: setenforce: SELinux is disabled
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z nginx: nginx: [warn] the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/nginx.conf:36
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z kernel: iproute: loading out-of-tree module taints kernel.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z kernel: iproute: module verification failed: signature and/or required key missing - tainting kernel
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: PID file /var/run/nginx.pid not readable (yet?) after start.
+Oct 30 16:31:07 iz2ze7720r8yhrhk17njh4z systemd: Started nginx - high performance web server.
+Oct 30 16:31:08 iz2ze7720r8yhrhk17njh4z aliasesdb: /usr/sbin/postconf: fatal: parameter inet_interfaces: no local interface found for ::1
+Oct 30 16:31:08 iz2ze7720r8yhrhk17njh4z ip6network[1100]: Server listening on 0.0.0.0 port 500.
+Oct 30 16:31:08 iz2ze7720r8yhrhk17njh4z rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-34.el7" x-pid="992" x-info="http://www.rsyslog.com"] start
+Oct 30 16:31:08 iz2ze7720r8yhrhk17njh4z systemd: Started System Logging Service.
+Oct 30 16:31:08 iz2ze7720r8yhrhk17njh4z systemd: Started ECS enable networking multiqueue.
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z systemd: Started Dynamic System Tuning Daemon.
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z aegis: Aegis is running
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z systemd: Started LSB: aegis update..
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z systemd: Starting SYSV: Start and Stop redis...
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z redis: Starting Redis server...
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z aliasesdb: newaliases: fatal: parameter inet_interfaces: no local interface found for ::1
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z redis: 1323:C 30 Oct 2019 16:31:09.147 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z redis: 1323:C 30 Oct 2019 16:31:09.147 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=1323, just started
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z redis: 1323:C 30 Oct 2019 16:31:09.147 # Configuration loaded
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z systemd: Started SYSV: Start and Stop redis.
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z redis: Redis is running...
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z systemd: Starting SYSV: Starts and stops guest agent...
+Oct 30 16:31:09 iz2ze7720r8yhrhk17njh4z kernel: random: crng init done
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z network: setenforce: SELinux is disabled
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z systemd: postfix.service: control process exited, code=exited status=1
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z systemd: Failed to start Postfix Mail Transport Agent.
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z systemd: Unit postfix.service entered failed state.
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z systemd: postfix.service failed.
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: Detected change(s) of loaded kernel modules list:
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: -br_netfilter
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: -ipt_MASQUERADE
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: -nf_nat_masquerade_ipv4
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: -overlay
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: -xt_addrtype
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z kdumpctl: Rebuilding /boot/initramfs-3.10.0-957.21.3.el7.x86_64kdump.img
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.2.1) doesn't match a supported version!
+Oct 30 16:31:10 iz2ze7720r8yhrhk17njh4z cloud-init: RequestsDependencyWarning)
+Oct 30 16:31:12 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/Cheetah/Compiler.py:1509: UserWarning:
+Oct 30 16:31:12 iz2ze7720r8yhrhk17njh4z cloud-init: You don't have the C version of NameMapper installed! I'm disabling Cheetah's useStackFrames option as it is painfully slow with the Python version of NameMapper. You should get a copy of Cheetah with the compiled C version of NameMapper.
+Oct 30 16:31:12 iz2ze7720r8yhrhk17njh4z cloud-init: "\nYou don't have the C version of NameMapper installed! "
+Oct 30 16:31:12 iz2ze7720r8yhrhk17njh4z cloud-init: Cloud-init v. 0.7.6a4 running 'init-local' at Wed, 30 Oct 2019 08:31:12 +0000. Up 19.39 seconds.
+Oct 30 16:31:12 iz2ze7720r8yhrhk17njh4z systemd: Started Initial cloud-init job (pre-networking).
+Oct 30 16:31:12 iz2ze7720r8yhrhk17njh4z systemd: Starting Initial cloud-init job (metadata service crawler)...
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.2.1) doesn't match a supported version!
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: RequestsDependencyWarning)
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/Cheetah/Compiler.py:1509: UserWarning:
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: You don't have the C version of NameMapper installed! I'm disabling Cheetah's useStackFrames option as it is painfully slow with the Python version of NameMapper. You should get a copy of Cheetah with the compiled C version of NameMapper.
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: "\nYou don't have the C version of NameMapper installed! "
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: Cloud-init v. 0.7.6a4 running 'init' at Wed, 30 Oct 2019 08:31:13 +0000. Up 20.37 seconds.
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +--------+------+---------------+---------------+-------------------+
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: | Device |  Up  |    Address    |      Mask     |     Hw-Address    |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +--------+------+---------------+---------------+-------------------+
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: |  lo:   | True |   127.0.0.1   |   255.0.0.0   |         .         |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: | eth0:  | True | 172.17.125.93 | 255.255.240.0 | 00:16:3e:0e:ba:c7 |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +--------+------+---------------+---------------+-------------------+
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +-------+--------------+----------------+---------------+-----------+-------+
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: | Route | Destination  |    Gateway     |    Genmask    | Interface | Flags |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +-------+--------------+----------------+---------------+-----------+-------+
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: |   0   |   0.0.0.0    | 172.17.127.253 |    0.0.0.0    |    eth0   |   UG  |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: |   1   | 169.254.0.0  |    0.0.0.0     |  255.255.0.0  |    eth0   |   U   |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: |   2   | 172.17.112.0 |    0.0.0.0     | 255.255.240.0 |    eth0   |   U   |
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z cloud-init: ci-info: +-------+--------------+----------------+---------------+-----------+-------+
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z dracut: dracut-033-554.el7
+Oct 30 16:31:13 iz2ze7720r8yhrhk17njh4z dracut: Executing: /usr/sbin/dracut --hostonly --hostonly-cmdline --hostonly-i18n --hostonly-mode strict -o "plymouth dash resume ifcfg" --mount "/dev/disk/by-uuid/59d9ca7b-4f39-4c0c-9334-c56c182076b5 /sysroot ext4 defaults" --no-hostonly-default-device -f /boot/initramfs-3.10.0-957.21.3.el7.x86_64kdump.img 3.10.0-957.21.3.el7.x86_64
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Reloading.
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Configuration file /usr/lib/systemd/system/eni.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Started auto run aliyunservice or agent.
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z agentwatch: finished
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Started SYSV: Starts and stops guest agent.
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Started Initial cloud-init job (metadata service crawler).
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Reached target Cloud-config availability.
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Starting Apply the settings specified in cloud-config...
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Starting Docker Storage Setup...
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Starting OpenSSH server daemon...
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z systemd: Started OpenSSH server daemon.
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z container-storage-setup: INFO: Volume group backing root filesystem could not be determined
+Oct 30 16:31:14 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z kernel: TECH PREVIEW: Overlay filesystem may not be fully supported.#012Please review provided documentation for limitations.
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z systemd: Started Docker Storage Setup.
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z systemd: Starting Docker Application Container Engine...
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'ifcfg' will not be installed, because it's in the list to be omitted!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'url-lib' will not be installed, because command 'curl' could not be found!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'plymouth' will not be installed, because it's in the list to be omitted!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.2.1) doesn't match a supported version!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z cloud-init: RequestsDependencyWarning)
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/Cheetah/Compiler.py:1509: UserWarning:
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z cloud-init: You don't have the C version of NameMapper installed! I'm disabling Cheetah's useStackFrames option as it is painfully slow with the Python version of NameMapper. You should get a copy of Cheetah with the compiled C version of NameMapper.
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z cloud-init: "\nYou don't have the C version of NameMapper installed! "
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z cloud-init: Cloud-init v. 0.7.6a4 running 'modules:config' at Wed, 30 Oct 2019 08:31:15 +0000. Up 22.87 seconds.
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z systemd: Started Apply the settings specified in cloud-config.
+Oct 30 16:31:15 iz2ze7720r8yhrhk17njh4z systemd: Starting Execute cloud user/final scripts...
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.2.1) doesn't match a supported version!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: RequestsDependencyWarning)
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: /usr/lib/python2.7/site-packages/Cheetah/Compiler.py:1509: UserWarning:
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: You don't have the C version of NameMapper installed! I'm disabling Cheetah's useStackFrames option as it is painfully slow with the Python version of NameMapper. You should get a copy of Cheetah with the compiled C version of NameMapper.
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: "\nYou don't have the C version of NameMapper installed! "
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: Cloud-init v. 0.7.6a4 running 'modules:final' at Wed, 30 Oct 2019 08:31:16 +0000. Up 23.88 seconds.
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: 95nfs: Could not find any command of 'rpcbind portmap'!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'resume' will not be installed, because it's in the list to be omitted!
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z cloud-init: Cloud-init v. 0.7.6a4 finished at Wed, 30 Oct 2019 08:31:16 +0000. Datasource DataSourceAliYun.  Up 24.09 seconds
+Oct 30 16:31:16 iz2ze7720r8yhrhk17njh4z systemd: Started Execute cloud user/final scripts.
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:17.034741666+08:00" level=warning msg="could not change group /var/run/docker.sock to docker: group docker not found"
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:17.108649953+08:00" level=info msg="libcontainerd: new containerd process, pid: 3000"
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'url-lib' will not be installed, because command 'curl' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z systemd: Started MySQL Server.
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: 95nfs: Could not find any command of 'rpcbind portmap'!
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: bash ***
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: nss-softokn ***
+Oct 30 16:31:17 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: i18n ***
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: drm ***
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:18.391662131+08:00" level=warning msg="Docker could not enable SELinux on the host system"
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:18.443022700+08:00" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:18.443546049+08:00" level=info msg="Loading containers: start."
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z kernel: Bridge firewalling registered
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:18.754262822+08:00" level=info msg="Firewalld running: true"
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D OUTPUT -m addrtype --dst-type LOCAL ! --dst 127.0.0.0/8 -j DOCKER' failed: iptables v1.4.21: Couldn't load target `DOCKER':No such file or directory#012#012Try `iptables -h' or 'iptables --help' for more information.
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D OUTPUT -m addrtype --dst-type LOCAL -j DOCKER' failed: iptables v1.4.21: Couldn't load target `DOCKER':No such file or directory#012#012Try `iptables -h' or 'iptables --help' for more information.
+Oct 30 16:31:18 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D PREROUTING' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D OUTPUT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -F DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -X DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -F DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -X DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -F DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -X DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -n -L DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -n -L DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -n -L DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C DOCKER-ISOLATION -j RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C POSTROUTING -s 172.18.0.0/16 ! -o docker0 -j MASQUERADE' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C DOCKER -i docker0 -j RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -D FORWARD -i docker0 -o docker0 -j DROP' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -i docker0 -o docker0 -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -i docker0 ! -o docker0 -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C PREROUTING -m addrtype --dst-type LOCAL -j DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C OUTPUT -m addrtype --dst-type LOCAL -j DOCKER ! --dst 127.0.0.0/8' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -j DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -j DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z kernel: IPv6: ADDRCONF(NETDEV_UP): docker0: link is not ready
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:19.890515511+08:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.18.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C POSTROUTING -s 172.18.0.0/16 ! -o docker0 -j MASQUERADE' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C DOCKER -i docker0 -j RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -D FORWARD -i docker0 -o docker0 -j DROP' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -i docker0 -o docker0 -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -i docker0 ! -o docker0 -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:19 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z firewalld[544]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -j DOCKER' failed: iptables: No chain/target/match by that name.
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:20.220038733+08:00" level=info msg="Loading containers: done."
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd: Created slice User Slice of root.
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd: Started Session 1 of user root.
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd-logind: New session 1 of user root.
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: kernel-modules ***
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:20.633120381+08:00" level=info msg="Daemon has completed initialization"
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:20.633152229+08:00" level=info msg="Docker daemon" commit="b2f74b2/1.13.1" graphdriver=overlay2 version=1.13.1
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd: Started Docker Application Container Engine.
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z dockerd-current: time="2019-10-30T16:31:20.653869323+08:00" level=info msg="API listen on /var/run/docker.sock"
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd: Reached target Multi-User System.
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd: Starting Update UTMP about System Runlevel Changes...
+Oct 30 16:31:20 iz2ze7720r8yhrhk17njh4z systemd: Started Update UTMP about System Runlevel Changes.
+Oct 30 16:31:35 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: qemu ***
+Oct 30 16:31:35 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: fstab-sys ***
+Oct 30 16:31:35 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: rootfs-block ***
+Oct 30 16:31:35 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: terminfo ***
+Oct 30 16:31:36 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: udev-rules ***
+Oct 30 16:31:36 iz2ze7720r8yhrhk17njh4z dracut: Skipping udev rule: 40-redhat-cpu-hotplug.rules
+Oct 30 16:31:37 iz2ze7720r8yhrhk17njh4z dracut: Skipping udev rule: 91-permissions.rules
+Oct 30 16:31:37 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: biosdevname ***
+Oct 30 16:31:37 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: systemd ***
+Oct 30 16:31:40 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: usrmount ***
+Oct 30 16:31:40 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: base ***
+Oct 30 16:31:41 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: fs-lib ***
+Oct 30 16:31:41 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: kdumpbase ***
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: microcode_ctl-fw_dir_override ***
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:  microcode_ctl module: mangling fw_dir
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:    microcode_ctl: reset fw_dir to "/lib/firmware/updates /lib/firmware"
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:    microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-4f-01"...
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:    microcode_ctl: kernel version "3.10.0-957.21.3.el7.x86_64" failed early load check for "intel-06-4f-01", skipping
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:    microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel"...
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:    microcode_ctl: intel: Host-Only mode is enabled and ucode name does not match the expected one, skipping caveat ("06-4f-01" not in " intel-ucode/*")
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut:    microcode_ctl: final fw_dir: "/lib/firmware/updates /lib/firmware"
+Oct 30 16:31:43 iz2ze7720r8yhrhk17njh4z dracut: *** Including module: shutdown ***
+Oct 30 16:31:44 iz2ze7720r8yhrhk17njh4z dracut: *** Including modules done ***
+Oct 30 16:31:44 iz2ze7720r8yhrhk17njh4z dracut: *** Installing kernel module dependencies and firmware ***
+Oct 30 16:31:45 iz2ze7720r8yhrhk17njh4z dracut: *** Installing kernel module dependencies and firmware done ***
+Oct 30 16:31:45 iz2ze7720r8yhrhk17njh4z dracut: *** Resolving executable dependencies ***
+Oct 30 16:31:46 iz2ze7720r8yhrhk17njh4z dracut: *** Resolving executable dependencies done***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Hardlinking files ***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Hardlinking files done ***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Stripping files ***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Stripping files done ***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Generating early-microcode cpio image contents ***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Constructing GenuineIntel.bin ****
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** No early-microcode cpio image needed ***
+Oct 30 16:31:47 iz2ze7720r8yhrhk17njh4z dracut: *** Store current command line parameters ***
+Oct 30 16:31:48 iz2ze7720r8yhrhk17njh4z dracut: *** Creating image file ***
+Oct 30 16:32:08 iz2ze7720r8yhrhk17njh4z dracut: *** Creating image file done ***
+Oct 30 16:32:13 iz2ze7720r8yhrhk17njh4z dracut: *** Creating initramfs image file '/boot/initramfs-3.10.0-957.21.3.el7.x86_64kdump.img' done ***
+Oct 30 16:32:14 iz2ze7720r8yhrhk17njh4z kdumpctl: kexec: loaded kdump kernel
+Oct 30 16:32:14 iz2ze7720r8yhrhk17njh4z kdumpctl: Starting kdump: [OK]
+Oct 30 16:32:14 iz2ze7720r8yhrhk17njh4z systemd: Started Crash recovery kernel arming.
+Oct 30 16:32:14 iz2ze7720r8yhrhk17njh4z systemd: Startup finished in 699ms (kernel) + 2.364s (initrd) + 1min 18.405s (userspace) = 1min 21.468s.
+Oct 30 16:38:33 iz2ze7720r8yhrhk17njh4z systemd: Started Session 2 of user root.
+Oct 30 16:38:33 iz2ze7720r8yhrhk17njh4z systemd-logind: New session 2 of user root.
+Oct 30 16:43:01 iz2ze7720r8yhrhk17njh4z systemd: Started Session 3 of user root.
+Oct 30 16:43:01 iz2ze7720r8yhrhk17njh4z systemd-logind: New session 3 of user root.

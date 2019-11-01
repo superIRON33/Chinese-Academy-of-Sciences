@@ -6,10 +6,11 @@ import java.io.*;
 
 public class ImageUploadUtil {
 
-    public static String upload(MultipartFile image, String path, String imageName) {
+    public static String[] upload(MultipartFile image, String path, String imageName) {
 
         //生成新文件名
-        String realPath = path + "/" + ImageNameUtil.getImageName(imageName);
+        String name = ImageNameUtil.getImageName(imageName);
+        String realPath = path + "/" + name;
 
         File file = new File(realPath);
 
@@ -18,13 +19,13 @@ public class ImageUploadUtil {
         }
         try {
             image.transferTo(file);
-            return realPath;
+            return new String[]{realPath, name};
         } catch (IOException e) {
             e.printStackTrace();
-            return "";
+            return null;
         } catch (IllegalStateException e) {
             e.printStackTrace();
-            return "";
+            return null;
         }
     }
 }

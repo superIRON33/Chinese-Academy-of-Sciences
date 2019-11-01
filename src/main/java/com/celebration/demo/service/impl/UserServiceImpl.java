@@ -24,13 +24,6 @@ public class UserServiceImpl implements UserInfoService {
     private String path;
 
     @Override
-    public ResultDTO getUserInfos() {
-        ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
-        resultDTO.setData(userInfoRepository.findAll());
-        return resultDTO;
-    }
-    
-    @Override
     public ResultDTO getUserInfo(String id) {
 
         Optional<UserInfo> userInfo = userInfoRepository.findUserInfoById(id);
@@ -58,14 +51,22 @@ public class UserServiceImpl implements UserInfoService {
     public ResultDTO uploadWechatPNG(String id, MultipartFile image) {
         
         if (userInfoRepository.findUserInfoById(id).isPresent()) {
-            ImageUploadUtil.upload(image, path, image.getOriginalFilename());
-            String imageURL = "https://action.ucas.ac.cn/wechatPNG/" + image.getOriginalFilename();
-            userInfoRepository.updateWechatPNG(id, imageURL);
-            Map<String, Object> map = new HashMap<>();
-            map.put("imageURL", imageURL);
-            ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
-            resultDTO.setData(map);
-            return resultDTO;
+            String[] strings = ImageUploadUtil.upload(image, path, image.getOriginalFilename());
+            if (strings != null) {
+                String imageURL = "https://action.ucas.ac.cn/wechatPNG/" + strings[1];
+                System.out.println(imageURL);
+                userInfoRepository.updateWechatPNG(id, imageURL);
+                Map<String, Object> map = new HashMap<>();
+                map.put("imageURL", imageURL);
+                ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+                resultDTO.setData(map);
+                return resultDTO;
+            }
+            else {
+                ResultDTO resultDTO = new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+                resultDTO.setData(null);
+                return resultDTO;
+            }
         }
         return new ResultDTO(ResultEnum.ID_INVALID);
     }

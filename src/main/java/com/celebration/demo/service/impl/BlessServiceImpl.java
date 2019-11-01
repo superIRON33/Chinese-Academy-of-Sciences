@@ -6,6 +6,7 @@ import com.celebration.demo.common.enums.ResultEnum;
 import com.celebration.demo.common.enums.WechatEnum;
 import com.celebration.demo.common.utils.HttpClientUtil;
 import com.celebration.demo.common.utils.ImageUploadUtil;
+import com.celebration.demo.common.utils.RandomNumberUtil;
 import com.celebration.demo.model.dto.BlessDTO;
 import com.celebration.demo.model.dto.ResultDTO;
 import com.celebration.demo.model.entity.Bless;
@@ -65,24 +66,33 @@ public class BlessServiceImpl implements BlessService {
             if (userInfoRepository.findUserInfoById(userId).isPresent()) {
                 Bless bless = new Bless(userId, content);
                 if (image != null) {
-                    ImageUploadUtil.upload(image, path, image.getOriginalFilename());
-                    String imageURL = "https://action.ucas.ac.cn/images/" + image.getOriginalFilename();
-                    bless.setImage(imageURL);
-                    blessRepository.saveAndFlush(bless);
-                    if (bless.getImage().equals("")) {
-                        return new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+                    String[] strings = ImageUploadUtil.upload(image, path, image.getOriginalFilename());
+                    if (strings != null) {
+                        String imageURL = "https://action.ucas.ac.cn/images/" + strings[1];
+                        System.out.println(imageURL);
+                        bless.setImage(imageURL);
+                        blessRepository.saveAndFlush(bless);
+                        if (bless.getImage().equals("")) {
+                            return new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+                        }
+                        Map<String, Object> map = new HashMap<>();
+                        map.put("imageURL", imageURL);
+                        map.put("count", blessRepository.countUserInfo());
+                        map.put("cert", RandomNumberUtil.getRandomNumber());
+                        ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
+                        resultDTO.setData(map);
+                        return resultDTO;
+    
                     }
-                    Map<String, Object> map = new HashMap<>();
-                    map.put("imageURL", imageURL);
-                    map.put("count", blessRepository.countAllBy());
-                    ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
-                    resultDTO.setData(map);
+                    ResultDTO resultDTO = new ResultDTO(ResultEnum.IMAGE_UPLOAD_FAILURE);
+                    resultDTO.setData(null);
                     return resultDTO;
                 }
                 Map<String, Object> map = new HashMap<>();
                 blessRepository.saveAndFlush(bless);
-                map.put("imageURL", null);
-                map.put("count", blessRepository.countAllBy());
+                map.put("imageURL", "");
+                map.put("count", blessRepository.countUserInfo());
+                map.put("cert", RandomNumberUtil.getRandomNumber());
                 ResultDTO resultDTO = new ResultDTO(ResultEnum.SUCCESS);
                 resultDTO.setData(map);
                 return resultDTO;

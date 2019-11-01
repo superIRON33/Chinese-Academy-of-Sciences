@@ -26,11 +26,6 @@ public class UserInfoController {
         log.info("用户登录: {}(userId)，{}(name)", userId);
         return wxService.isWxLogin(code, userId, image);
     }
-
-    @GetMapping(value = "/userInfos")
-    public ResultDTO getUserInfos() {
-        return userInfoService.getUserInfos();
-    }
     
     @GetMapping(value = "/userInfo")
     public ResultDTO getUserInfo(@RequestParam(value = "id") String id) {

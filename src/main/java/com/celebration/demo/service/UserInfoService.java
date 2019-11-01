@@ -5,8 +5,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 public interface UserInfoService {
 
-    ResultDTO getUserInfos();
-    
     ResultDTO getUserInfo(String id);
     
     ResultDTO updateUserInfo(String id, String name, Integer year, String institute, String degree, String workspace, Integer workspaceIs, String address, Integer addressIs, String telephone, Integer telephoneIs, String emailAdd, Integer emailAddIs, String slogan, String country);

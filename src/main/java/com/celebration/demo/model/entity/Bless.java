@@ -38,6 +38,7 @@ public class Bless {
         
         this.userId = userId;
         this.content = content;
+        this.image = "";
         this.likes = 0;
     }
 }

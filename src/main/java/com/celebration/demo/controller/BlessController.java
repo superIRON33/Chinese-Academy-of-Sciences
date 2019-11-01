@@ -2,7 +2,6 @@ package com.celebration.demo.controller;
 
 import com.celebration.demo.model.dto.ResultDTO;
 import com.celebration.demo.service.BlessService;
-import com.celebration.demo.service.base.QiniuService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,8 +14,6 @@ public class BlessController {
 
     @Autowired
     private BlessService blessService;
-    @Autowired
-    private QiniuService qiniuService;
     
     @PostMapping(value = "/bless")
     public ResultDTO saveBless(@RequestParam String userId,
@@ -38,11 +35,5 @@ public class BlessController {
     public ResultDTO commend(@RequestParam String userId,
                              @RequestParam String blessId) {
         return blessService.commend(userId, blessId);
-    }
-    
-    @GetMapping(value = "/uptoken")
-    public String getUptoken() {
-        
-        return qiniuService.getToken();
     }
 }

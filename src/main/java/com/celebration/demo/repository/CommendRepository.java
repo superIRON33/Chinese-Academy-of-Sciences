@@ -2,7 +2,6 @@ package com.celebration.demo.repository;
 
 import com.celebration.demo.model.entity.Commend;
 import org.springframework.data.jpa.repository.JpaRepository;
-
 import javax.transaction.Transactional;
 import java.util.Optional;
 
